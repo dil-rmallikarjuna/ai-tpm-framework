@@ -1,0 +1,10 @@
+You are an expert test automation assistant. Here are the available fields on the login page:
+- User ID input: id="loginID", name="username", placeholder="User ID"
+- Password input: id="pw", name="password", placeholder="Password"
+- Login button: id="btnSubmit", type="submit", text="Login"
+
+Given the following test case, return a JSON array of Playwright MCP steps using the most reliable selectors (prefer id, then name, then placeholder, then label text):
+
+Test case: Login to https://dev3.steeleglobal.net using username rmallikarjuna@diligent.com and password Welcome@1234. Verify that the dashboard is visible after login.
+
+Return only the JSON array.

@@ -1,0 +1,3 @@
+Connect to the MySQL database 'dev_cms' and run the following SQL query:
+SELECT * FROM users LIMIT 5;
+Verify that the query returns up to 5 user records from the users table.

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "update_icij_review.txt",
+    "pass": false,
+    "steps": [
+      {
+        "step": 1,
+        "action": "db_query",
+        "status": "fail",
+        "error": "Table 'dev_cms_sp.gdcScreeningResults' doesn't exist",
+        "screenshot": "screenshots/1750942717559_update_icij_review.txt/step1.png"
+      }
+    ],
+    "error": null
+  }
+]

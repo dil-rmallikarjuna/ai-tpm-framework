@@ -1,0 +1,16 @@
+[
+  {
+    "name": "update_icij_review.txt",
+    "pass": false,
+    "steps": [
+      {
+        "step": 1,
+        "action": "connectToDatabase",
+        "status": "fail",
+        "error": "Unknown action: connectToDatabase",
+        "screenshot": "screenshots/1750942578135_update_icij_review.txt/step1.png"
+      }
+    ],
+    "error": null
+  }
+]
