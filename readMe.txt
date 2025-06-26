@@ -49,14 +49,6 @@ Usage
     npm start -- your_test_case.txt
 - View HTML/JSON reports in `reports/`.
 
-Supported Actions
------------------
-- goto        # Navigate to a URL
-- fill        # Fill a form field
-- click       # Click a button or element
-- assert      # Assert element visibility/existence
-- db_query    # Run a SQL query on MySQL
-- api_request # Make an HTTP request (GET, POST, etc.)
 
 Extending
 ---------
