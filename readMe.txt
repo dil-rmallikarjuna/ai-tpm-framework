@@ -39,6 +39,24 @@ Setup
    pip install -r requirements.txt
 3. Configure `.env` with AWS and DB credentials at project root.
 
+AWS SSO Configuration
+---------------------
+1. Install AWS CLI:
+   brew install awscli
+2. Configure AWS SSO profile:
+   aws configure sso
+   # Use the following when prompted:
+   # SSO start URL: "Get this details from your org"
+   # SSO region: Get this details from your org
+   # SSO account ID: Get this details from your org
+   # SSO role name: Get this details from your org
+   # CLI default client Region: Get this details from your org
+   # CLI default output format: json
+   # SSO session name: Get this details from your org
+3. Login to SSO:
+   aws sso login --profile dil-3pm-dev
+
+
 Usage
 -----
 - Add your test cases as `.txt` files in `test_cases/`.
@@ -49,8 +67,11 @@ Usage
     npm start -- your_test_case.txt
 - View HTML/JSON reports in `reports/`.
 
-
 Extending
 ---------
 - Add new actions by updating the system prompt and `runTestCase` in `runner/index.js`.
 - Add new utility modules for other databases or services as needed.
+
+Note
+----
+This is still a basic prototype which can do UI, DB, and API testing all in one, but a lot can be improved. If anyone wants to contribute, please do!
