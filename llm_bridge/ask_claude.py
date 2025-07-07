@@ -28,6 +28,8 @@ def ask_claude(prompt):
             contentType='application/json'
         )
         result = json.loads(response['body'].read())
+        # Print raw Claude response for debugging
+        print(f"RAW_CLAUDE_RESPONSE: {result}", file=sys.stderr)
         # For Claude Messages API, the output is in result['content'][0]['text']
         if 'content' in result and isinstance(result['content'], list) and 'text' in result['content'][0]:
             return result['content'][0]['text']

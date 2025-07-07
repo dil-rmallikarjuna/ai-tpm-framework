@@ -1,10 +1,20 @@
-You are an expert test automation assistant. Here are the available fields on the login page:
-- User ID input: id="loginID", name="username", placeholder="User ID"
-- Password input: id="pw", name="password", placeholder="Password"
-- Login button: id="btnSubmit", type="submit", text="Login"
+Test URL: https://dev3.steeleglobal.net
+Username: rmallikarjuna@diligent.com
+Password: Welcome@1234
 
-Given the following test case, return a JSON array of Playwright MCP steps using the most reliable selectors (prefer id, then name, then placeholder, then label text):
 
-Test case: Login to https://dev3.steeleglobal.net using username rmallikarjuna@diligent.com and password Welcome@1234. Verify that the dashboard is visible after login.
+Login to "https://dev3.steeleglobal.net" using username "rmallikarjuna@diligent.com" and password Welcome@1234.
+Verify that the user is navigated to dashboard page
+Click on Third party manager tab to create new third party.
+Click on Add profile button.
+Select any Type of Third Party from select dropdown.
+Select any Category from select dropdown.
+Enter any random IT company name in Company name input box.
+Then click on Continue/Enter button.
+Then select any Country and Region.
+And click on Continue/review button.
+Then click on create profile and verify "Third Party Record Created" and "Initial screenings are in process and may take several minutes to complete." text are visible.
 
-Return only the JSON array.
+Always use the Test URL provided above for any navigation steps.
+Always use the exact username and password provided in the test case prompt. Do not use any other values.
+For any login or authentication step, use the above Username and Password exactly as provided.
