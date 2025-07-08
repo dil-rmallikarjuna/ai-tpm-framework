@@ -38,9 +38,12 @@ def ask_claude(prompt):
         return {"error": str(e)}
 
 def main():
-    prompt = sys.stdin.read()
-    result = ask_claude(prompt)
-    print(json.dumps(result))
+    try:
+        prompt = sys.stdin.read()
+        result = ask_claude(prompt)
+        print(json.dumps(result))
+    except Exception as e:
+        print(json.dumps({"error": str(e)}))
 
 if __name__ == "__main__":
     main() 

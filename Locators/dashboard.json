@@ -1,0 +1,18 @@
+[
+  {"id": "tabsL1"},
+  {"css": "#tabsL1 ul"},
+  {"css": "#tabsL1 ul li"},
+  {"class": "tl1Content"},
+  {"id": "tabsL2Header"},
+  {"class": "tabsL2Header"},
+  {"id": "tabsL2"},
+  {"id": "tabsL2List"},
+  {"css": "#tabsL2 ul li"},
+  {"class": "tl2Content"},
+  {"class": "appFormButton"},
+  {"class": "appFormElement"},
+  {"class": "btn"},
+  {"class": "appFormElmntHidden"},
+  {"class": "dataTable"},
+  {"class": "dtpg-bind"}
+] 
