@@ -25,7 +25,6 @@ function getTestCases() {
       content: fs.readFileSync(path.join(TEST_CASES_DIR, f), 'utf-8')
     }));
 }
-
 function getAllLocators() {
   // Load all JSON files in the Locators directory
   const locatorFiles = fs.readdirSync(LOCATORS_DIR).filter(f => f.endsWith('.json'));

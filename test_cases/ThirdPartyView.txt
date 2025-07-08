@@ -1,6 +1,6 @@
 You are an expert test automation assistant. Fetch the available fields (locators) for the login page dynamically from the file at Locators/login.json. Use these locators to generate selectors for the steps below.
-
 Given the following test case, return a JSON array of Playwright MCP steps using the most reliable selectors (prefer id, then name, then placeholder, then label text):
+
 
 Test case: 
 Login to https://dev3.steeleglobal.net using username rmallikarjuna@diligent.com and password Welcome@1234. 

@@ -1,18 +1,993 @@
 [
-  {"id": "tabsL1"},
-  {"css": "#tabsL1 ul"},
-  {"css": "#tabsL1 ul li"},
-  {"class": "tl1Content"},
-  {"id": "tabsL2Header"},
-  {"class": "tabsL2Header"},
-  {"id": "tabsL2"},
-  {"id": "tabsL2List"},
-  {"css": "#tabsL2 ul li"},
-  {"class": "tl2Content"},
-  {"class": "appFormButton"},
-  {"class": "appFormElement"},
-  {"class": "btn"},
-  {"class": "appFormElmntHidden"},
-  {"class": "dataTable"},
-  {"class": "dtpg-bind"}
-] 
+  {
+    "css": "noscript"
+  },
+  {
+    "css": "#root"
+  },
+  {
+    "css": "div:nth-of-type(1)"
+  },
+  {
+    "class": "navbar"
+  },
+  {
+    "css": "#client-company-logo"
+  },
+  {
+    "class": "navbar-brand"
+  },
+  {
+    "class": "img-fluid"
+  },
+  {
+    "class": "mr-auto"
+  },
+  {
+    "class": "topbar-private-action-btns"
+  },
+  {
+    "css": "a:nth-of-type(1)"
+  },
+  {
+    "class": "add-tp"
+  },
+  {
+    "class": "ti-plus"
+  },
+  {
+    "css": "a:nth-of-type(2)"
+  },
+  {
+    "class": "order-dill"
+  },
+  {
+    "class": "ti-layout-tab"
+  },
+  {
+    "css": ".navbar-nav"
+  },
+  {
+    "class": "notifications"
+  },
+  {
+    "css": ".dropdown-toggle.no-after"
+  },
+  {
+    "css": ".ti-harddrives"
+  },
+  {
+    "class": "dropdown-menu"
+  },
+  {
+    "class": "list-widget-header"
+  },
+  {
+    "class": "pR-10"
+  },
+  {
+    "class": "fw-600"
+  },
+  {
+    "class": "half-height-scroll"
+  },
+  {
+    "class": "pos-r"
+  },
+  {
+    "class": "td-n"
+  },
+  {
+    "css": ".col-12"
+  },
+  {
+    "class": "jc-sb"
+  },
+  {
+    "class": "pendo-notification-wrapper"
+  },
+  {
+    "css": "#pendo-notification-icon"
+  },
+  {
+    "class": "ti-bell"
+  },
+  {
+    "class": "pendo-resource-center-badge-notification-bubble"
+  },
+  {
+    "class": "pendo-notification-bubble-unread-count"
+  },
+  {
+    "css": "#user-widget"
+  },
+  {
+    "class": "username-text"
+  },
+  {
+    "css": ".fsz-sm"
+  },
+  {
+    "css": "#signout"
+  },
+  {
+    "class": "signout-text"
+  },
+  {
+    "class": "container-fluid"
+  },
+  {
+    "css": ".row"
+  },
+  {
+    "class": "d-md-block"
+  },
+  {
+    "class": "sidebar-sticky"
+  },
+  {
+    "class": "nav"
+  },
+  {
+    "css": ".row.d-none.d-xl-block"
+  },
+  {
+    "css": "#quick-search-form"
+  },
+  {
+    "css": ".form-group"
+  },
+  {
+    "css": ".form-control"
+  },
+  {
+    "css": "option:nth-of-type(1)"
+  },
+  {
+    "css": "option:nth-of-type(2)"
+  },
+  {
+    "css": "option:nth-of-type(3)"
+  },
+  {
+    "css": "option:nth-of-type(4)"
+  },
+  {
+    "css": "option:nth-of-type(5)"
+  },
+  {
+    "css": "option:nth-of-type(6)"
+  },
+  {
+    "css": "option:nth-of-type(7)"
+  },
+  {
+    "css": "option:nth-of-type(8)"
+  },
+  {
+    "css": "#quick-search"
+  },
+  {
+    "class": "col-md-12"
+  },
+  {
+    "class": "sidebar-nav"
+  },
+  {
+    "css": ".nav-item"
+  },
+  {
+    "css": ".nav-link"
+  },
+  {
+    "css": ".icon-holder"
+  },
+  {
+    "class": "ti-home"
+  },
+  {
+    "css": ".link-title"
+  },
+  {
+    "class": "ti-layout-list-thumb"
+  },
+  {
+    "class": "ti-pencil"
+  },
+  {
+    "class": "ti-bar-chart"
+  },
+  {
+    "class": "ti-settings"
+  },
+  {
+    "class": "ti-support"
+  },
+  {
+    "css": ".title.font-weight-bold"
+  },
+  {
+    "css": "#recentlyViewedList"
+  },
+  {
+    "css": "li:nth-of-type(1)"
+  },
+  {
+    "css": "a"
+  },
+  {
+    "css": ".svg-inline--fa.fa-id-card"
+  },
+  {
+    "css": "path"
+  },
+  {
+    "css": "span"
+  },
+  {
+    "css": "li:nth-of-type(2)"
+  },
+  {
+    "css": "li:nth-of-type(3)"
+  },
+  {
+    "css": "li:nth-of-type(4)"
+  },
+  {
+    "css": "li:nth-of-type(5)"
+  },
+  {
+    "css": ".col-md-10.offset-md-1"
+  },
+  {
+    "css": "#zendesk-support-link"
+  },
+  {
+    "css": ".d-none.d-xl-block"
+  },
+  {
+    "css": "#powered-by"
+  },
+  {
+    "css": "#Layer_1"
+  },
+  {
+    "css": "g:nth-of-type(1)"
+  },
+  {
+    "css": "rect:nth-of-type(1)"
+  },
+  {
+    "css": "rect:nth-of-type(2)"
+  },
+  {
+    "css": "rect:nth-of-type(3)"
+  },
+  {
+    "css": "rect:nth-of-type(4)"
+  },
+  {
+    "css": "rect:nth-of-type(5)"
+  },
+  {
+    "css": "path:nth-of-type(1)"
+  },
+  {
+    "css": "path:nth-of-type(2)"
+  },
+  {
+    "css": "path:nth-of-type(3)"
+  },
+  {
+    "css": "path:nth-of-type(4)"
+  },
+  {
+    "css": "path:nth-of-type(5)"
+  },
+  {
+    "css": "g:nth-of-type(2)"
+  },
+  {
+    "css": "g"
+  },
+  {
+    "css": "#partial-steele-logo"
+  },
+  {
+    "class": "ml-sm-auto"
+  },
+  {
+    "css": ".layer.w-100"
+  },
+  {
+    "css": ".data-tile.col"
+  },
+  {
+    "css": ".layers.bgc-white.p-20.dashboard-component"
+  },
+  {
+    "css": ".value"
+  },
+  {
+    "css": ".lh-1"
+  },
+  {
+    "css": "hr"
+  },
+  {
+    "class": "col-9"
+  },
+  {
+    "css": ".bd.bgc-white.dashboard-component"
+  },
+  {
+    "css": ".layers.bgc-white.p-20"
+  },
+  {
+    "css": "#map-container"
+  },
+  {
+    "css": "#map"
+  },
+  {
+    "css": "#countries"
+  },
+  {
+    "css": "#AF"
+  },
+  {
+    "css": "#AO"
+  },
+  {
+    "css": "#AL"
+  },
+  {
+    "css": "#AE"
+  },
+  {
+    "css": "#AR"
+  },
+  {
+    "css": "#AM"
+  },
+  {
+    "css": "#AQ"
+  },
+  {
+    "css": "#TF"
+  },
+  {
+    "css": "#AU"
+  },
+  {
+    "css": "#AT"
+  },
+  {
+    "css": "#AZ"
+  },
+  {
+    "css": "#BI"
+  },
+  {
+    "css": "#BE"
+  },
+  {
+    "css": "#BJ"
+  },
+  {
+    "css": "#BF"
+  },
+  {
+    "css": "#BD"
+  },
+  {
+    "css": "#BG"
+  },
+  {
+    "css": "#BS"
+  },
+  {
+    "css": "#BA"
+  },
+  {
+    "css": "#BY"
+  },
+  {
+    "css": "#BZ"
+  },
+  {
+    "css": "#BO"
+  },
+  {
+    "css": "#BR"
+  },
+  {
+    "css": "#BN"
+  },
+  {
+    "css": "#BT"
+  },
+  {
+    "css": "#BW"
+  },
+  {
+    "css": "#CF"
+  },
+  {
+    "css": "#CA"
+  },
+  {
+    "css": "#CH"
+  },
+  {
+    "css": "#CL"
+  },
+  {
+    "css": "#CN"
+  },
+  {
+    "css": "#CI"
+  },
+  {
+    "css": "#CM"
+  },
+  {
+    "css": "#CD"
+  },
+  {
+    "css": "#CG"
+  },
+  {
+    "css": "#CO"
+  },
+  {
+    "css": "#CR"
+  },
+  {
+    "css": "#CU"
+  },
+  {
+    "css": "#-99"
+  },
+  {
+    "css": "#CY"
+  },
+  {
+    "css": "#CZ"
+  },
+  {
+    "css": "#DE"
+  },
+  {
+    "css": "#DJ"
+  },
+  {
+    "css": "#DK"
+  },
+  {
+    "css": "#DO"
+  },
+  {
+    "css": "#DZ"
+  },
+  {
+    "css": "#EC"
+  },
+  {
+    "css": "#EG"
+  },
+  {
+    "css": "#ER"
+  },
+  {
+    "css": "#ES"
+  },
+  {
+    "css": "#EE"
+  },
+  {
+    "css": "#ET"
+  },
+  {
+    "css": "#FI"
+  },
+  {
+    "css": "#FJ"
+  },
+  {
+    "css": "#FK"
+  },
+  {
+    "css": "#FR"
+  },
+  {
+    "css": "#GA"
+  },
+  {
+    "css": "#UK"
+  },
+  {
+    "css": "#GE"
+  },
+  {
+    "css": "#GH"
+  },
+  {
+    "css": "#GN"
+  },
+  {
+    "css": "#GM"
+  },
+  {
+    "css": "#GW"
+  },
+  {
+    "css": "#GQ"
+  },
+  {
+    "css": "#GR"
+  },
+  {
+    "css": "#GL"
+  },
+  {
+    "css": "#GT"
+  },
+  {
+    "css": "#GY"
+  },
+  {
+    "css": "#HN"
+  },
+  {
+    "css": "#HR"
+  },
+  {
+    "css": "#HT"
+  },
+  {
+    "css": "#HU"
+  },
+  {
+    "css": "#ID"
+  },
+  {
+    "css": "#IN"
+  },
+  {
+    "css": "#IE"
+  },
+  {
+    "css": "#IR"
+  },
+  {
+    "css": "#IQ"
+  },
+  {
+    "css": "#IS"
+  },
+  {
+    "css": "#IL"
+  },
+  {
+    "css": "#IT"
+  },
+  {
+    "css": "#JM"
+  },
+  {
+    "css": "#JO"
+  },
+  {
+    "css": "#JP"
+  },
+  {
+    "css": "#KZ"
+  },
+  {
+    "css": "#KE"
+  },
+  {
+    "css": "#KG"
+  },
+  {
+    "css": "#KH"
+  },
+  {
+    "css": "#KR"
+  },
+  {
+    "css": "#KW"
+  },
+  {
+    "css": "#LA"
+  },
+  {
+    "css": "#LB"
+  },
+  {
+    "css": "#LR"
+  },
+  {
+    "css": "#LY"
+  },
+  {
+    "css": "#LK"
+  },
+  {
+    "css": "#LS"
+  },
+  {
+    "css": "#LT"
+  },
+  {
+    "css": "#LU"
+  },
+  {
+    "css": "#LV"
+  },
+  {
+    "css": "#MA"
+  },
+  {
+    "css": "#MD"
+  },
+  {
+    "css": "#MG"
+  },
+  {
+    "css": "#MX"
+  },
+  {
+    "css": "#MK"
+  },
+  {
+    "css": "#ML"
+  },
+  {
+    "css": "#MM"
+  },
+  {
+    "css": "#ME"
+  },
+  {
+    "css": "#MN"
+  },
+  {
+    "css": "#MZ"
+  },
+  {
+    "css": "#MR"
+  },
+  {
+    "css": "#MW"
+  },
+  {
+    "css": "#MY"
+  },
+  {
+    "css": "#NA"
+  },
+  {
+    "css": "#NC"
+  },
+  {
+    "css": "#NE"
+  },
+  {
+    "css": "#NG"
+  },
+  {
+    "css": "#NI"
+  },
+  {
+    "css": "#NL"
+  },
+  {
+    "css": "#NO"
+  },
+  {
+    "css": "#NP"
+  },
+  {
+    "css": "#NZ"
+  },
+  {
+    "css": "#OM"
+  },
+  {
+    "css": "#PK"
+  },
+  {
+    "css": "#PA"
+  },
+  {
+    "css": "#PE"
+  },
+  {
+    "css": "#PH"
+  },
+  {
+    "css": "#PG"
+  },
+  {
+    "css": "#PL"
+  },
+  {
+    "css": "#PR"
+  },
+  {
+    "css": "#KP"
+  },
+  {
+    "css": "#PT"
+  },
+  {
+    "css": "#PY"
+  },
+  {
+    "css": "#PS"
+  },
+  {
+    "css": "#QA"
+  },
+  {
+    "css": "#RO"
+  },
+  {
+    "css": "#RU"
+  },
+  {
+    "css": "#RW"
+  },
+  {
+    "css": "#EH"
+  },
+  {
+    "css": "#SA"
+  },
+  {
+    "css": "#SD"
+  },
+  {
+    "css": "#SS"
+  },
+  {
+    "css": "#SN"
+  },
+  {
+    "css": "#SB"
+  },
+  {
+    "css": "#SL"
+  },
+  {
+    "css": "#SV"
+  },
+  {
+    "css": "#SO"
+  },
+  {
+    "css": "#RS"
+  },
+  {
+    "css": "#SR"
+  },
+  {
+    "css": "#SK"
+  },
+  {
+    "css": "#SI"
+  },
+  {
+    "css": "#SE"
+  },
+  {
+    "css": "#SZ"
+  },
+  {
+    "css": "#SY"
+  },
+  {
+    "css": "#TD"
+  },
+  {
+    "css": "#TG"
+  },
+  {
+    "css": "#TH"
+  },
+  {
+    "css": "#TJ"
+  },
+  {
+    "css": "#TM"
+  },
+  {
+    "css": "#TL"
+  },
+  {
+    "css": "#TT"
+  },
+  {
+    "css": "#TN"
+  },
+  {
+    "css": "#TR"
+  },
+  {
+    "css": "#TW"
+  },
+  {
+    "css": "#TZ"
+  },
+  {
+    "css": "#UG"
+  },
+  {
+    "css": "#UA"
+  },
+  {
+    "css": "#UY"
+  },
+  {
+    "css": "#US"
+  },
+  {
+    "css": "#UZ"
+  },
+  {
+    "css": "#VE"
+  },
+  {
+    "css": "#VN"
+  },
+  {
+    "css": "#VU"
+  },
+  {
+    "css": "#YE"
+  },
+  {
+    "css": "#ZA"
+  },
+  {
+    "css": "#ZM"
+  },
+  {
+    "css": "#ZW"
+  },
+  {
+    "css": "script"
+  },
+  {
+    "css": "#legend"
+  },
+  {
+    "css": "ul"
+  },
+  {
+    "css": "li"
+  },
+  {
+    "class": "color"
+  },
+  {
+    "css": "span:nth-of-type(2)"
+  },
+  {
+    "class": "col-3"
+  },
+  {
+    "css": ".layers.bgc-white.p-20.dashboard-component.tile"
+  },
+  {
+    "class": "bdrs-3"
+  },
+  {
+    "class": "ReactTable"
+  },
+  {
+    "class": "rt-table"
+  },
+  {
+    "class": "rt-thead"
+  },
+  {
+    "css": ".rt-tr"
+  },
+  {
+    "css": ".rt-th.rt-resizable-header.-cursor-pointer"
+  },
+  {
+    "css": ".rt-resizable-header-content"
+  },
+  {
+    "css": ".rt-resizer"
+  },
+  {
+    "class": "rt-tbody"
+  },
+  {
+    "css": ".rt-tr-group"
+  },
+  {
+    "css": ".rt-tr.-padRow.-odd"
+  },
+  {
+    "css": ".rt-td.no-trsl"
+  },
+  {
+    "css": ".rt-td"
+  },
+  {
+    "css": ".rt-tr.-padRow.-even"
+  },
+  {
+    "class": "pagination-bottom"
+  },
+  {
+    "class": "-pagination"
+  },
+  {
+    "class": "-previous"
+  },
+  {
+    "css": ".-btn"
+  },
+  {
+    "class": "-center"
+  },
+  {
+    "class": "-pageInfo"
+  },
+  {
+    "class": "-pageJump"
+  },
+  {
+    "css": "input"
+  },
+  {
+    "class": "-totalPages"
+  },
+  {
+    "class": "select-wrap"
+  },
+  {
+    "css": "select"
+  },
+  {
+    "class": "-next"
+  },
+  {
+    "class": "rt-noData"
+  },
+  {
+    "class": "-loading"
+  },
+  {
+    "class": "-loading-inner"
+  },
+  {
+    "css": "div:nth-of-type(3)"
+  },
+  {
+    "css": "ai-notice-popup-component"
+  },
+  {
+    "css": "div:nth-of-type(4)"
+  },
+  {
+    "css": "script:nth-of-type(1)"
+  },
+  {
+    "css": "script:nth-of-type(2)"
+  },
+  {
+    "css": "script:nth-of-type(3)"
+  },
+  {
+    "css": "script:nth-of-type(4)"
+  }
+  
+]
