@@ -1,0 +1,16 @@
+Test case: 
+Login to https://example.com using username user@example.com and password password123. 
+Navigate to "Dashboard" section
+Validate "Welcome" text is visible on screen
+Click on "Profile" link
+Validate "User Information" text is visible
+
+Return only the JSON array.
+Example:
+[
+  { "action": "goto", "url": "https://example.com" },
+  { "action": "fill", "selector": "#username", "value": "user@example.com" },
+  { "action": "fill", "selector": "#password", "value": "password123" },
+  { "action": "click", "selector": "#login-btn" },
+  { "action": "assert", "selector": ".welcome-message", "text": "Welcome" }
+] 

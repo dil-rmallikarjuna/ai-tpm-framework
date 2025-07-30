@@ -11,7 +11,28 @@ const REPORTS_DIR = path.join(__dirname, '../reports');
 const LLM_BRIDGE = path.join(__dirname, '../llm_bridge/ask_claude.py');
 const LOCATORS_DIR = path.join(__dirname, '../Locators');
 
-const SYSTEM_PROMPT = `You are an expert test automation assistant. Given a natural language test case, return a JSON array of steps for Playwright MCP, MySQL, and API testing. Supported actions are: goto, fill, click, assert, db_query, api_request. For API operations, use the api_request action with 'method', 'url', optional 'headers', and optional 'body' fields. Do not return code, only structured JSON steps.`;
+const SYSTEM_PROMPT = `You are an expert test automation assistant. Given a natural language test case, return a JSON array of steps for Playwright MCP, MySQL, and API testing.
+
+INSTRUCTIONS:
+- For each step, use the selector (id, class, name, xpath, or css) from the provided locator JSONs that best matches the field's purpose.
+- Only use selectors present in the locator JSONs and that are relevant to the described step.
+- Match selectors by id, class, name, text, or locator value as appropriate.
+- If a step refers to a specific page (e.g., login, dashboard), use the corresponding locator file (e.g., Locators/login.json, Locators/dashboard.json).
+- Do NOT invent, describe, or use any other format for selectors.
+- Use the exact selector string (e.g., #username, [name=\"password\"], .btn-primary, or an xpath).
+- If you cannot find a selector for a step, SKIP that step.
+- Your output MUST be a JSON array of objects, each with an 'action' property.
+- Keep the output concise and do not include unnecessary selectors.
+
+STRICT EXAMPLE:
+[
+  { "action": "goto", "url": "https://example.com" },
+  { "action": "fill", "selector": "#username", "value": "user@example.com" },
+  { "action": "fill", "selector": "#password", "value": "password123" },
+  { "action": "click", "selector": "#submit-btn" },
+  { "action": "assert", "selector": ".dashboard-welcome", "text": "Welcome to Dashboard" }
+]
+`;
 
 if (!fs.existsSync(REPORTS_DIR)) {
   fs.mkdirSync(REPORTS_DIR);
@@ -25,6 +46,7 @@ function getTestCases() {
       content: fs.readFileSync(path.join(TEST_CASES_DIR, f), 'utf-8')
     }));
 }
+
 function getAllLocators() {
   // Load all JSON files in the Locators directory
   const locatorFiles = fs.readdirSync(LOCATORS_DIR).filter(f => f.endsWith('.json'));
@@ -38,7 +60,7 @@ function getAllLocators() {
 
 function buildLocatorSummary(locatorJson) {
   if (Array.isArray(locatorJson) && locatorJson.length > 0) {
-    return `\n\nHere are all available UI element locators for this application (as JSON):\n${JSON.stringify(locatorJson, null, 2)}\nFor each step, use the selector (id, class, name, or xpath) from the provided locator JSON that best matches the field’s purpose. Only use selectors present in the locator JSON. Do not invent or describe selectors; use the actual selector string (e.g., #loginID, [name=\"username\"], .btn-primary, or an xpath).`;
+    return `\n\nHere are all available UI element locators for this application (as JSON):\n${JSON.stringify(locatorJson, null, 2)}\n\nINSTRUCTIONS:\n- For each step, use the selector (id, class, name, or xpath) from the provided locator JSON that best matches the field's purpose.\n- Only use selectors present in the locator JSON.\n- Do NOT invent, describe, or use any other format for selectors.\n- Use the exact selector string (e.g., #username, [name=\"password\"], .btn-primary, or an xpath).\n- If you cannot find a selector for a step, SKIP that step.\n- Your output MUST be a JSON array of objects, each with an 'action' property.\n\nSTRICT EXAMPLE:\n[\n  { "action": "goto", "url": "https://example.com" },\n  { "action": "fill", "selector": "#username", "value": "user@example.com" },\n  { "action": "fill", "selector": "#password", "value": "password123" },\n  { "action": "click", "selector": "#submit-btn" },\n  { "action": "assert", "selector": ".dashboard-welcome", "text": "Welcome to Dashboard" }\n]\n`;
   }
   return '';
 }
@@ -54,8 +76,22 @@ function buildLocatorMap(locatorJson) {
   return map;
 }
 
+function getRelevantLocators(locatorJson, testCaseContent) {
+  // Only include locators whose id, class, name, text, or locator is mentioned in the test case
+  return locatorJson.filter(entry => {
+    if (entry.id && testCaseContent.includes(entry.id)) return true;
+    if (entry.class && testCaseContent.includes(entry.class)) return true;
+    if (entry.name && testCaseContent.includes(entry.name)) return true;
+    if (entry.text && testCaseContent.includes(entry.text)) return true;
+    if (entry.locator && testCaseContent.includes(entry.locator)) return true;
+    return false;
+  });
+}
+
 function callLLM(prompt, locatorJson) {
-  const locatorSummary = buildLocatorSummary(locatorJson);
+  // Filter locators to only those relevant to the test case
+  const relevantLocators = getRelevantLocators(locatorJson, prompt);
+  const locatorSummary = buildLocatorSummary(relevantLocators);
   const fullPrompt = `${SYSTEM_PROMPT}\n\nTest case: ${prompt}${locatorSummary}\nReturn only the JSON array.`;
   const result = spawnSync('python3', [LLM_BRIDGE], {
     input: fullPrompt,
@@ -97,6 +133,10 @@ async function runTestCase(testCase, steps, locatorJson) {
 
   try {
     for (const [i, step] of steps.entries()) {
+      if (!step.action) {
+        console.error(`Step ${i + 1} is missing an 'action' property:`, step);
+        continue; // or break, or throw, depending on your preference
+      }
       // Map logical selector to actual selector if needed
       if (step.selector && locatorMap[step.selector]) {
         step.selector = locatorMap[step.selector];
@@ -107,18 +147,49 @@ async function runTestCase(testCase, steps, locatorJson) {
         switch (step.action) {
           case 'goto':
             await page.goto(step.url);
+            await page.waitForLoadState('load');
             break;
           case 'fill':
             await page.fill(step.selector, step.value);
             break;
           case 'click':
-            await page.click(step.selector);
+            if (step.text) {
+              // Find all elements with the selector
+              const elements = await page.$$(step.selector);
+              let found = false;
+              for (const el of elements) {
+                const elText = await el.textContent();
+                if (elText && elText.trim().toLowerCase() === step.text.trim().toLowerCase()) {
+                  // Wait for navigation if the click triggers it
+                  const [navigation] = await Promise.all([
+                    page.waitForNavigation({ waitUntil: 'load', timeout: 30000 }).catch(() => {}),
+                    el.click()
+                  ]);
+                  found = true;
+                  break;
+                }
+              }
+              if (!found) throw new Error(`Element with selector ${step.selector} and text "${step.text}" not found`);
+            } else {
+              // Wait for navigation if the click triggers it
+              const [navigation] = await Promise.all([
+                page.waitForNavigation({ waitUntil: 'load', timeout: 30000 }).catch(() => {}),
+                page.click(step.selector)
+              ]);
+            }
+            await page.waitForLoadState('load');
             break;
           case 'assert':
-            if (step.exists === true) {
-              await page.waitForSelector(step.selector, { state: 'visible', timeout: 5000 });
+            if (step.text) {
+              const el = await page.waitForSelector(step.selector, { state: 'visible', timeout: 30000 });
+              const content = await el.textContent();
+              if (!content.includes(step.text)) {
+                throw new Error(`Text "${step.text}" not found in element ${step.selector}`);
+              }
+            } else if (step.exists === true) {
+              await page.waitForSelector(step.selector, { state: 'visible', timeout: 30000 });
             } else if (step.exists === false) {
-              await page.waitForSelector(step.selector, { state: 'hidden', timeout: 5000 });
+              await page.waitForSelector(step.selector, { state: 'hidden', timeout: 30000 });
             }
             break;
           case 'db_query':
@@ -177,17 +248,19 @@ async function main() {
       return;
     }
   }
-  const allLocators = getAllLocators();
   const results = [];
   for (const tc of testCases) {
     console.log(`Running test case: ${tc.name}`);
     let steps, result;
     try {
+      const allLocators = getAllLocators();
       steps = callLLM(tc.content, allLocators);
       console.log('LLM steps output:', steps);
       if (!Array.isArray(steps)) {
         throw new Error('LLM did not return a JSON array of steps. Output: ' + JSON.stringify(steps));
       }
+      steps = steps.filter(step => step && typeof step === 'object' && step.action);
+      steps = steps.map(normalizeStep);
       result = await runTestCase(tc, steps, allLocators);
     } catch (err) {
       result = { pass: false, steps: null, error: err.message };
@@ -222,7 +295,6 @@ function generateHtmlReport(results, htmlReportPath) {
       <h1>Test Automation Report</h1>
       <p>Generated: ${new Date().toLocaleString()}</p>
   `;
-
   for (const test of results) {
     html += `<div class="testcase">
       <h2>${test.name} - <span class="${test.pass ? 'pass' : 'fail'}">${test.pass ? 'PASS' : 'FAIL'}</span></h2>
@@ -246,4 +318,32 @@ function generateHtmlReport(results, htmlReportPath) {
   fs.writeFileSync(htmlReportPath, html);
 }
 
-main(); 
+async function extractLocatorsFromDOM(page) {
+  return await page.evaluate(() => {
+    const locators = [];
+    document.querySelectorAll('*').forEach(el => {
+      if (el.id) locators.push({ id: el.id });
+      if (el.className && typeof el.className === 'string') locators.push({ class: el.className });
+      if (el.name) locators.push({ name: el.name });
+      // Add more as needed (e.g., placeholder, type, text, xpath)
+    });
+    return locators;
+  });
+}
+
+function normalizeStep(step) {
+  if (step.action) return step;
+  // Try to infer action from key
+  const keys = Object.keys(step);
+  if (keys.length === 1 && ['goto', 'fill', 'click', 'assert'].includes(keys[0])) {
+    const action = keys[0];
+    const rest = step[action];
+    if (action === 'goto') return { action, url: rest };
+    if (action === 'fill') return { action, selector: keys[0], value: step.value };
+    if (action === 'click') return { action, selector: step[action], text: step.text };
+    if (action === 'assert') return { action, selector: step[action], text: step.text };
+  }
+  return step;
+}
+
+main();

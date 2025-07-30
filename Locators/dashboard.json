@@ -1,993 +1,3518 @@
 [
   {
-    "css": "noscript"
+    "tag": "div",
+    "locatorType": "id",
+    "locator": "root",
+    "sample": "<div id=\"root\"><div></div><nav class=\"navbar fixed-top flex-md-nowrap p-0 topbar..."
   },
   {
-    "css": "#root"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[1]",
+    "sample": "<div></div>..."
   },
   {
-    "css": "div:nth-of-type(1)"
+    "tag": "div",
+    "locatorType": "id",
+    "locator": "client-company-logo",
+    "sample": "<div id=\"client-company-logo\" class=\"col-sm-3 col-md-2\"><a class=\"navbar-brand a..."
   },
   {
-    "class": "navbar"
+    "tag": "a",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"client-company-logo\"]/a[1]",
+    "sample": "<a class=\"navbar-brand active\" aria-current=\"page\" href=\"/dashboard\"><img src=\"/..."
   },
   {
-    "css": "#client-company-logo"
+    "tag": "img",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"client-company-logo\"]/a[1]/img[1]",
+    "sample": "<img src=\"/cms/dashboard/clientlogos/defaultlogo.png\" class=\"img-fluid\">..."
   },
   {
-    "class": "navbar-brand"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/nav[1]/div[2]",
+    "sample": "<div class=\"navbar-nav mr-auto\"><div class=\"topbar-private-action-btns\" role=\"gr..."
   },
   {
-    "class": "img-fluid"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/nav[1]/div[2]/div[1]",
+    "sample": "<div class=\"topbar-private-action-btns\" role=\"group\" aria-label=\"Basic example\">..."
   },
   {
-    "class": "mr-auto"
+    "tag": "a",
+    "locatorType": "text",
+    "locator": "ADD NEW ITEM",
+    "sample": "<a href=\"/cms/items/item_home.sec?openAdd=1\"><button type=\"button\" ..."
   },
   {
-    "class": "topbar-private-action-btns"
+          "tag": "button",
+      "locatorType": "text",
+      "locator": "ADD NEW ITEM",
+    "sample": "<button type=\"button\" class=\"btn cur-p add-tp\" style=\"margin-right: 15px; margin..."
   },
   {
-    "css": "a:nth-of-type(1)"
+    "tag": "i",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/nav[1]/div[2]/div[1]/a[1]/button[1]/i[1]",
+    "sample": "<i class=\"c-white-500 ti-plus btn-icon\"></i>..."
   },
   {
-    "class": "add-tp"
+    "tag": "a",
+    "locatorType": "text",
+    "locator": "ORDER DILIGENCE",
+    "sample": "<a href=\"/cms/case/casehome.sec?openAddCase=1\"><button type=\"button\" class=\"btn ..."
   },
   {
-    "class": "ti-plus"
+    "tag": "button",
+    "locatorType": "text",
+    "locator": "ORDER DILIGENCE",
+    "sample": "<button type=\"button\" class=\"btn cur-p order-dill\"><i class=\"c-white-500 ti-layo..."
   },
   {
-    "css": "a:nth-of-type(2)"
+    "tag": "i",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/nav[1]/div[2]/div[1]/a[2]/button[1]/i[1]",
+    "sample": "<i class=\"c-white-500 ti-layout-tab btn-icon\"></i>..."
   },
   {
-    "class": "order-dill"
+    "tag": "ul",
+    "locatorType": "text",
+    "locator": "4 Rajath Mallikarjuna Sign Out",
+    "sample": "<ul class=\"navbar-nav\"><li class=\"notifications dropdown nav-item\"><a class=\"dro..."
   },
   {
-    "class": "ti-layout-tab"
+    "tag": "li",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/nav[1]/ul[1]/li[1]",
+    "sample": "<li class=\"notifications dropdown nav-item\"><a class=\"dropdown-toggle no-after\" ..."
   },
   {
-    "css": ".navbar-nav"
+    "tag": "a",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/nav[1]/ul[1]/li[1]/a[1]",
+    "sample": "<a class=\"dropdown-toggle no-after\" data-toggle=\"dropdown\" href=\"\"><i class=\"ti-..."
   },
   {
-    "class": "notifications"
+    "tag": "i",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/nav[1]/ul[1]/li[1]/a[1]/i[1]",
+    "sample": "<i class=\"ti-harddrives\"></i>..."
   },
   {
-    "css": ".dropdown-toggle.no-after"
+    "tag": "span",
+    "locatorType": "text",
+    "locator": "4",
+    "sample": "<span class=\"pendo-notification-wrapper notification dropdown nav-items\" data-pe..."
   },
   {
-    "css": ".ti-harddrives"
+    "tag": "a",
+    "locatorType": "id",
+    "locator": "pendo-notification-icon",
+    "sample": "<a id=\"pendo-notification-icon\" class=\"pendo-notification-icon-wrapper dropdown-..."
   },
   {
-    "class": "dropdown-menu"
+    "tag": "i",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"pendo-notification-icon\"]/i[1]",
+    "sample": "<i class=\"ti-bell\"></i>..."
   },
   {
-    "class": "list-widget-header"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"pendo-notification-icon\"]/div[1]",
+    "sample": "<div class=\" pendo-resource-center-badge-notification-bubble\" style=\"position: a..."
   },
   {
-    "class": "pR-10"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"pendo-notification-icon\"]/div[1]/div[1]",
+    "sample": "<div class=\" pendo-notification-bubble-unread-count\" style=\"font-weight: 100; fo..."
   },
   {
-    "class": "fw-600"
+    "tag": "a",
+    "locatorType": "id",
+    "locator": "user-widget",
+    "sample": "<a href=\"/tpm/cfg\" id=\"user-widget\" class=\"no-after\"> <div class=\"peer username-..."
   },
   {
-    "class": "half-height-scroll"
+    "tag": "div",
+    "locatorType": "text",
+    "locator": "Rajath Mallikarjuna",
+    "sample": "<div class=\"peer username-text\" data-tl-ignore=\"1\" style=\"border-right: 2px soli..."
   },
   {
-    "class": "pos-r"
+    "tag": "span",
+    "locatorType": "text",
+    "locator": "Rajath Mallikarjuna",
+    "sample": "<span class=\"fsz-sm\">Rajath Mallikarjuna</span>..."
   },
   {
-    "class": "td-n"
+    "tag": "a",
+    "locatorType": "id",
+    "locator": "signout",
+    "sample": "<a id=\"signout\" class=\"no-after\" href=\"javascript:void(0)\" style=\"margin-right: ..."
   },
   {
-    "css": ".col-12"
+    "tag": "div",
+    "locatorType": "text",
+    "locator": "Sign Out",
+    "sample": "<div class=\"peer signout-text\"><span class=\"fsz-sm\">Sign Out</span></div>..."
   },
   {
-    "class": "jc-sb"
+    "tag": "span",
+    "locatorType": "text",
+    "locator": "Sign Out",
+    "sample": "<span class=\"fsz-sm\">Sign Out</span>..."
   },
   {
-    "class": "pendo-notification-wrapper"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]",
+    "sample": "<div class=\"container-fluid\"><div class=\"row\"><nav class=\"col-md-2 d-none d-md-b..."
   },
   {
-    "css": "#pendo-notification-icon"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]",
+    "sample": "<div class=\"row\"><nav class=\"col-md-2 d-none d-md-block bg-light sidebar\"><div c..."
   },
   {
-    "class": "ti-bell"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]",
+    "sample": "<div class=\"sidebar-sticky\"><div class=\"nav flex-column\"><div class=\"row d-none ..."
   },
   {
-    "class": "pendo-resource-center-badge-notification-bubble"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]/div[1]",
+    "sample": "<div class=\"nav flex-column\"><div class=\"row d-none d-xl-block\"><div class=\"col-..."
   },
   {
-    "class": "pendo-notification-bubble-unread-count"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]/div[1]/div[1]",
+    "sample": "<div class=\"row d-none d-xl-block\"><div class=\"col-12\"><form id=\"quick-search-fo..."
   },
   {
-    "css": "#user-widget"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]/div[1]/div[1]/div[1]",
+    "sample": "<div class=\"col-12\"><form id=\"quick-search-form\" class=\"\"><div style=\"margin-bot..."
   },
   {
-    "class": "username-text"
+    "tag": "form",
+    "locatorType": "id",
+    "locator": "quick-search-form",
+    "sample": "<form id=\"quick-search-form\" class=\"\"><div style=\"margin-bottom: 5px; color: rgb..."
   },
   {
-    "css": ".fsz-sm"
+    "tag": "div",
+    "locatorType": "text",
+    "locator": "Quick Search",
+    "sample": "<div style=\"margin-bottom: 5px; color: rgb(255, 255, 255);\">Quick Search</div>..."
   },
   {
-    "css": "#signout"
+    "tag": "div",
+    "locatorType": "text",
+    "locator": "Case Folders Third Party Profiles",
+    "sample": "<div class=\"form-group\"><select name=\"mode\" class=\"form-control\"><option value=\"..."
   },
   {
-    "class": "signout-text"
+          "tag": "select",
+      "locatorType": "text",
+      "locator": "Case Folders Entity Profiles",
+    "sample": "<select name=\"mode\" class=\"form-control\"><option value=\"cases\">Case Folders</opt..."
   },
   {
-    "class": "container-fluid"
+    "tag": "div",
+    "locatorType": "text",
+    "locator": "Case Name Case Number Company Name Description Country Street Address Requester Department",
+    "sample": "<div class=\"form-group\"><select name=\"field\" class=\"form-control\"><option value=..."
   },
   {
-    "css": ".row"
+    "tag": "select",
+    "locatorType": "text",
+    "locator": "Case Name Case Number Company Name Description Country Street Address Requester Department",
+    "sample": "<select name=\"field\" class=\"form-control\"><option value=\"caseName\">Case Name</op..."
   },
   {
-    "class": "d-md-block"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"quick-search-form\"]/div[4]",
+    "sample": "<div class=\"form-group\"><input id=\"quick-search\" name=\"search\" placeholder=\"Sear..."
   },
   {
-    "class": "sidebar-sticky"
+    "tag": "input",
+    "locatorType": "id",
+    "locator": "quick-search",
+    "sample": "<input id=\"quick-search\" name=\"search\" placeholder=\"Search Records\" required=\"\" ..."
   },
   {
-    "class": "nav"
+    "tag": "input",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"quick-search-form\"]/input[1]",
+    "sample": "<input type=\"submit\" class=\"form-control\" value=\"Go\" data-has-listeners=\"true\">..."
   },
   {
-    "css": ".row.d-none.d-xl-block"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]/div[1]/div[2]",
+    "sample": "<div class=\"row\"><div class=\"col-md-12\"><ul class=\"sidebar-nav\"><li class=\"nav-i..."
   },
   {
-    "css": "#quick-search-form"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]/div[1]/div[2]/div[1]",
+    "sample": "<div class=\"col-md-12\"><ul class=\"sidebar-nav\"><li class=\"nav-item\"><a class=\"na..."
   },
   {
-    "css": ".form-group"
+    "tag": "ul",
+    "locatorType": "text",
+    "locator": "Dashboard Entity Management Case Management Analytics Settings Support",
+    "sample": "<ul class=\"sidebar-nav\"><li class=\"nav-item\"><a class=\"nav-link\" aria-current=\"p..."
   },
   {
-    "css": ".form-control"
+    "tag": "li",
+    "locatorType": "text",
+    "locator": "Dashboard",
+    "sample": "<li class=\"nav-item\"><a class=\"nav-link\" aria-current=\"page\" href=\"/dashboard\"><..."
   },
   {
-    "css": "option:nth-of-type(1)"
+    "tag": "a",
+    "locatorType": "text",
+    "locator": "Dashboard",
+    "sample": "<a class=\"nav-link\" aria-current=\"page\" href=\"/dashboard\"><span class=\"icon-hold..."
   },
   {
-    "css": "option:nth-of-type(2)"
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1]",
+    "sample": "<span class=\"icon-holder\" title=\"Dashboard\"><i class=\"ti-home c-sky-gray-500\"></..."
   },
   {
-    "css": "option:nth-of-type(3)"
+    "tag": "i",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1]/i[1]",
+    "sample": "<i class=\"ti-home c-sky-gray-500\"></i>..."
   },
   {
-    "css": "option:nth-of-type(4)"
+    "tag": "span",
+    "locatorType": "text",
+    "locator": "Dashboard",
+    "sample": "<span class=\"link-title\">Dashboard</span>..."
   },
   {
-    "css": "option:nth-of-type(5)"
+    "tag": "li",
+    "locatorType": "text",
+    "locator": "Entity Management",
+    "sample": "<li class=\"nav-item\"><a class=\"nav-link\" href=\"/cms/entities/entity_home.s..."
   },
   {
-    "css": "option:nth-of-type(6)"
+          "tag": "a",
+      "locatorType": "text",
+      "locator": "Entity Management",
+      "sample": "<a class=\"nav-link\" href=\"/cms/entities/entity_home.sec\"><span class=\"icon..."
   },
   {
-    "css": "option:nth-of-type(7)"
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]/span[1]",
+    "sample": "<span class=\"icon-holder\" title=\"Third Party Management\"><i class=\"ti-layout-lis..."
   },
   {
-    "css": "option:nth-of-type(8)"
+    "tag": "i",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]/span[1]/i[1]",
+    "sample": "<i class=\"ti-layout-list-thumb c-sky-gray-500\"></i>..."
   },
   {
-    "css": "#quick-search"
+          "tag": "span",
+      "locatorType": "text",
+      "locator": "Entity Management",
+      "sample": "<span class=\"link-title\">Entity Management</span>..."
   },
   {
-    "class": "col-md-12"
+    "tag": "li",
+    "locatorType": "text",
+    "locator": "Case Management",
+    "sample": "<li class=\"nav-item\"><a class=\"nav-link\" href=\"/cms/case/casehome.sec\"><span cla..."
   },
   {
-    "class": "sidebar-nav"
+    "tag": "a",
+    "locatorType": "text",
+    "locator": "Case Management",
+    "sample": "<a class=\"nav-link\" href=\"/cms/case/casehome.sec\"><span class=\"icon-holder\" titl..."
   },
   {
-    "css": ".nav-item"
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]/span[1]",
+    "sample": "<span class=\"icon-holder\" title=\"Case Management\"><i class=\"ti-pencil c-sky-gray..."
   },
   {
-    "css": ".nav-link"
+    "tag": "i",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]/span[1]/i[1]",
+    "sample": "<i class=\"ti-pencil c-sky-gray-500\"></i>..."
   },
   {
-    "css": ".icon-holder"
+    "tag": "span",
+    "locatorType": "text",
+    "locator": "Case Management",
+    "sample": "<span class=\"link-title\">Case Management</span>..."
   },
   {
-    "class": "ti-home"
+    "tag": "li",
+    "locatorType": "text",
+    "locator": "Analytics",
+    "sample": "<li class=\"nav-item\"><a class=\"nav-link\" href=\"/tpReport\"><span class=\"icon-hold..."
   },
   {
-    "css": ".link-title"
+    "tag": "a",
+    "locatorType": "text",
+    "locator": "Analytics",
+    "sample": "<a class=\"nav-link\" href=\"/tpReport\"><span class=\"icon-holder\" title=\"Analytics\"..."
   },
   {
-    "class": "ti-layout-list-thumb"
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]/a[1]/span[1]",
+    "sample": "<span class=\"icon-holder\" title=\"Analytics\"><i class=\"ti-bar-chart c-sky-gray-50..."
   },
   {
-    "class": "ti-pencil"
+    "tag": "i",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[4]/a[1]/span[1]/i[1]",
+    "sample": "<i class=\"ti-bar-chart c-sky-gray-500\"></i>..."
   },
   {
-    "class": "ti-bar-chart"
+    "tag": "span",
+    "locatorType": "text",
+    "locator": "Analytics",
+    "sample": "<span class=\"link-title\">Analytics</span>..."
   },
   {
-    "class": "ti-settings"
+    "tag": "li",
+    "locatorType": "text",
+    "locator": "Settings",
+    "sample": "<li class=\"nav-item\"><a class=\"nav-link\" href=\"/tpm/cfg\"><span class=\"icon-holde..."
   },
   {
-    "class": "ti-support"
+    "tag": "a",
+    "locatorType": "text",
+    "locator": "Settings",
+    "sample": "<a class=\"nav-link\" href=\"/tpm/cfg\"><span class=\"icon-holder\" title=\"Settings\"><..."
   },
   {
-    "css": ".title.font-weight-bold"
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]/span[1]",
+    "sample": "<span class=\"icon-holder\" title=\"Settings\"><i class=\"ti-settings c-sky-gray-500\"..."
   },
   {
-    "css": "#recentlyViewedList"
+    "tag": "i",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]/span[1]/i[1]",
+    "sample": "<i class=\"ti-settings c-sky-gray-500\"></i>..."
   },
   {
-    "css": "li:nth-of-type(1)"
+    "tag": "span",
+    "locatorType": "text",
+    "locator": "Settings",
+    "sample": "<span class=\"link-title\">Settings</span>..."
   },
   {
-    "css": "a"
+    "tag": "li",
+    "locatorType": "text",
+    "locator": "Support",
+    "sample": "<li class=\"nav-item\"><a class=\"nav-link\" href=\"/tpm/adm\"><span class=\"icon-holde..."
   },
   {
-    "css": ".svg-inline--fa.fa-id-card"
+    "tag": "a",
+    "locatorType": "text",
+    "locator": "Support",
+    "sample": "<a class=\"nav-link\" href=\"/tpm/adm\"><span class=\"icon-holder\" title=\"Support\"><i..."
   },
   {
-    "css": "path"
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[6]/a[1]/span[1]",
+    "sample": "<span class=\"icon-holder\" title=\"Support\"><i class=\"ti-support c-sky-gray-500\"><..."
   },
   {
-    "css": "span"
+    "tag": "i",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[6]/a[1]/span[1]/i[1]",
+    "sample": "<i class=\"ti-support c-sky-gray-500\"></i>..."
   },
   {
-    "css": "li:nth-of-type(2)"
+    "tag": "span",
+    "locatorType": "text",
+    "locator": "Support",
+    "sample": "<span class=\"link-title\">Support</span>..."
   },
   {
-    "css": "li:nth-of-type(3)"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]/div[1]/div[3]",
+    "sample": "<div class=\"row d-none d-xl-block\"><div class=\"col-12\" style=\"padding-top: 10px;..."
   },
   {
-    "css": "li:nth-of-type(4)"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]/div[1]/div[3]/div[1]",
+    "sample": "<div class=\"col-12\" style=\"padding-top: 10px;\"><span class=\"title font-weight-bo..."
   },
   {
-    "css": "li:nth-of-type(5)"
+    "tag": "span",
+    "locatorType": "text",
+    "locator": "Recently Viewed",
+    "sample": "<span class=\"title font-weight-bold\">Recently Viewed</span>..."
   },
   {
-    "css": ".col-md-10.offset-md-1"
+    "tag": "ul",
+    "locatorType": "id",
+    "locator": "recentlyViewedList",
+    "sample": "<ul id=\"recentlyViewedList\"><li><a title=\"Corsola\" data-tl-ignore=\"1\" href=\"/cms..."
   },
   {
-    "css": "#zendesk-support-link"
+    "tag": "li",
+    "locatorType": "text",
+          "locator": "Example Company A",
+      "sample": "<li><a title=\"Example Company A\" data-tl-ignore=\"1\" href=\"/cms/entities/entity_home...."
   },
   {
-    "css": ".d-none.d-xl-block"
+    "tag": "a",
+    "locatorType": "text",
+    "locator": "Corsola",
+    "sample": "<a title=\"Corsola\" data-tl-ignore=\"1\" href=\"/cms/thirdparty/thirdparty_home.sec?..."
   },
   {
-    "css": "#powered-by"
+    "tag": "svg",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"recentlyViewedList\"]/li[1]/a[1]/svg[1]",
+    "sample": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"id-card\" ..."
   },
   {
-    "css": "#Layer_1"
+    "tag": "path",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"recentlyViewedList\"]/li[1]/a[1]/svg[1]/path[1]",
+    "sample": "<path fill=\"currentColor\" d=\"M528 32H48C21.5 32 0 53.5 0 80v16h576V80c0-26.5-21...."
   },
   {
-    "css": "g:nth-of-type(1)"
+    "tag": "span",
+    "locatorType": "text",
+    "locator": "Corsola",
+    "sample": "<span>Corsola</span>..."
   },
   {
-    "css": "rect:nth-of-type(1)"
+    "tag": "li",
+    "locatorType": "text",
+          "locator": "Example Company B",
+      "sample": "<li><a title=\"Example Company B\" data-tl-ignore=\"1\" href=\"/cms/entities/entity..."
   },
   {
-    "css": "rect:nth-of-type(2)"
+    "tag": "a",
+    "locatorType": "text",
+    "locator": "1Malaysia Development",
+    "sample": "<a title=\"1Malaysia Development\" data-tl-ignore=\"1\" href=\"/cms/thirdparty/thirdp..."
   },
   {
-    "css": "rect:nth-of-type(3)"
+    "tag": "svg",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"recentlyViewedList\"]/li[2]/a[1]/svg[1]",
+    "sample": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"id-card\" ..."
   },
   {
-    "css": "rect:nth-of-type(4)"
+    "tag": "path",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"recentlyViewedList\"]/li[2]/a[1]/svg[1]/path[1]",
+    "sample": "<path fill=\"currentColor\" d=\"M528 32H48C21.5 32 0 53.5 0 80v16h576V80c0-26.5-21...."
   },
   {
-    "css": "rect:nth-of-type(5)"
+    "tag": "span",
+    "locatorType": "text",
+    "locator": "1Malaysia Development",
+    "sample": "<span>1Malaysia Development</span>..."
   },
   {
-    "css": "path:nth-of-type(1)"
+    "tag": "li",
+    "locatorType": "text",
+          "locator": "Example Company C",
+      "sample": "<li><a title=\"Example Company C\" data-tl-ignore=\"1\" href=\"/cms/entities/entity..."
   },
   {
-    "css": "path:nth-of-type(2)"
+    "tag": "a",
+    "locatorType": "text",
+    "locator": "Apurva Biotech",
+    "sample": "<a title=\"Apurva Biotech\" data-tl-ignore=\"1\" href=\"/cms/thirdparty/thirdparty_ho..."
   },
   {
-    "css": "path:nth-of-type(3)"
+    "tag": "svg",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"recentlyViewedList\"]/li[3]/a[1]/svg[1]",
+    "sample": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"id-card\" ..."
   },
   {
-    "css": "path:nth-of-type(4)"
+    "tag": "path",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"recentlyViewedList\"]/li[3]/a[1]/svg[1]/path[1]",
+    "sample": "<path fill=\"currentColor\" d=\"M528 32H48C21.5 32 0 53.5 0 80v16h576V80c0-26.5-21...."
   },
   {
-    "css": "path:nth-of-type(5)"
+    "tag": "span",
+    "locatorType": "text",
+    "locator": "Apurva Biotech",
+    "sample": "<span>Apurva Biotech</span>..."
   },
   {
-    "css": "g:nth-of-type(2)"
+    "tag": "li",
+    "locatorType": "text",
+    "locator": "Ross Google Test (Use this one)",
+    "sample": "<li><a title=\"Ross Google Test (Use this one)\" data-tl-ignore=\"1\" href=\"/cms/thi..."
   },
   {
-    "css": "g"
+    "tag": "a",
+    "locatorType": "text",
+    "locator": "Ross Google Test (Use this one)",
+    "sample": "<a title=\"Ross Google Test (Use this one)\" data-tl-ignore=\"1\" href=\"/cms/thirdpa..."
   },
   {
-    "css": "#partial-steele-logo"
+    "tag": "svg",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"recentlyViewedList\"]/li[4]/a[1]/svg[1]",
+    "sample": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"id-card\" ..."
   },
   {
-    "class": "ml-sm-auto"
+    "tag": "path",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"recentlyViewedList\"]/li[4]/a[1]/svg[1]/path[1]",
+    "sample": "<path fill=\"currentColor\" d=\"M528 32H48C21.5 32 0 53.5 0 80v16h576V80c0-26.5-21...."
   },
   {
-    "css": ".layer.w-100"
+    "tag": "span",
+    "locatorType": "text",
+    "locator": "Ross Google Test (Use this one)",
+    "sample": "<span>Ross Google Test (Use this one)</span>..."
   },
   {
-    "css": ".data-tile.col"
+    "tag": "li",
+    "locatorType": "text",
+    "locator": "厦门祎德医疗科技有限公司",
+    "sample": "<li><a title=\"厦门祎德医疗科技有限公司\" data-tl-ignore=\"1\" href=\"/cms/thirdparty/thirdparty_..."
   },
   {
-    "css": ".layers.bgc-white.p-20.dashboard-component"
+    "tag": "a",
+    "locatorType": "text",
+    "locator": "厦门祎德医疗科技有限公司",
+    "sample": "<a title=\"厦门祎德医疗科技有限公司\" data-tl-ignore=\"1\" href=\"/cms/thirdparty/thirdparty_home..."
   },
   {
-    "css": ".value"
+    "tag": "svg",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"recentlyViewedList\"]/li[5]/a[1]/svg[1]",
+    "sample": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"id-card\" ..."
   },
   {
-    "css": ".lh-1"
+    "tag": "path",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"recentlyViewedList\"]/li[5]/a[1]/svg[1]/path[1]",
+    "sample": "<path fill=\"currentColor\" d=\"M528 32H48C21.5 32 0 53.5 0 80v16h576V80c0-26.5-21...."
   },
   {
-    "css": "hr"
+    "tag": "span",
+    "locatorType": "text",
+    "locator": "厦门祎德医疗科技有限公司",
+    "sample": "<span>厦门祎德医疗科技有限公司</span>..."
   },
   {
-    "class": "col-9"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]/div[1]/div[4]",
+    "sample": "<div class=\"row d-none d-xl-block\" style=\"max-height: 70px;\"><div class=\"col-12\"..."
   },
   {
-    "css": ".bd.bgc-white.dashboard-component"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]/div[1]/div[4]/div[1]",
+    "sample": "<div class=\"col-12\" style=\"padding-top: 10px;\"><span class=\"title font-weight-bo..."
   },
   {
-    "css": ".layers.bgc-white.p-20"
+    "tag": "span",
+    "locatorType": "text",
+    "locator": "Need Assistance?",
+    "sample": "<span class=\"title font-weight-bold\">Need Assistance?</span>..."
   },
   {
-    "css": "#map-container"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]/div[1]/div[4]/div[1]/div[1]",
+    "sample": "<div class=\"row\"><div class=\"col-md-10 offset-md-1\"><p id=\"zendesk-support-link\"..."
   },
   {
-    "css": "#map"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]",
+    "sample": "<div class=\"col-md-10 offset-md-1\"><p id=\"zendesk-support-link\">Visit <a href=\"h..."
   },
   {
-    "css": "#countries"
+    "tag": "p",
+    "locatorType": "id",
+    "locator": "zendesk-support-link",
+      "sample": "<p id=\"zendesk-support-link\">Visit <a href=\"https://connect.example.com\" target..."
   },
   {
-    "css": "#AF"
+    "tag": "a",
+    "locatorType": "text",
+    "locator": "Subscriber Support",
+      "sample": "<a href=\"https://connect.example.com\" target=\"_blank\" rel=\"noopener noreferrer\"..."
   },
   {
-    "css": "#AO"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]/div[1]/div[5]",
+    "sample": "<div class=\"row\"><div class=\"col-md-10 offset-md-1\" style=\"padding-left: 0px;\"><..."
   },
   {
-    "css": "#AL"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/nav[1]/div[1]/div[1]/div[5]/div[1]",
+    "sample": "<div class=\"col-md-10 offset-md-1\" style=\"padding-left: 0px;\"><span id=\"powered-..."
   },
   {
-    "css": "#AE"
+    "tag": "span",
+    "locatorType": "id",
+    "locator": "powered-by",
+    "sample": "<span id=\"powered-by\" class=\"d-none d-xl-block logo-text\">Powered by</span>..."
   },
   {
-    "css": "#AR"
+    "tag": "svg",
+    "locatorType": "id",
+    "locator": "Layer_1",
+    "sample": "<svg version=\"1.1\" id=\"Layer_1\" class=\"steele-logo d-none d-xl-block\" data-name=..."
   },
   {
-    "css": "#AM"
+    "tag": "g",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"Layer_1\"]/g[1]",
+    "sample": "<g><rect x=\"362.89\" y=\"85.89\" width=\"18.73\" height=\"84.72\"></rect><rect x=\"362.8..."
   },
   {
-    "css": "#AQ"
+    "tag": "rect",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"Layer_1\"]/g[1]/rect[1]",
+    "sample": "<rect x=\"362.89\" y=\"85.89\" width=\"18.73\" height=\"84.72\"></rect>..."
   },
   {
-    "css": "#TF"
+    "tag": "rect",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"Layer_1\"]/g[1]/rect[2]",
+    "sample": "<rect x=\"362.89\" y=\"54.16\" width=\"18.73\" height=\"21.1\"></rect>..."
   },
   {
-    "css": "#AU"
+    "tag": "rect",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"Layer_1\"]/g[1]/rect[3]",
+    "sample": "<rect x=\"399.43\" y=\"52.29\" width=\"18.73\" height=\"118.33\"></rect>..."
   },
   {
-    "css": "#AT"
+    "tag": "rect",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"Layer_1\"]/g[1]/rect[4]",
+    "sample": "<rect x=\"439.04\" y=\"85.89\" width=\"18.73\" height=\"84.72\"></rect>..."
   },
   {
-    "css": "#AZ"
+    "tag": "rect",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"Layer_1\"]/g[1]/rect[5]",
+    "sample": "<rect x=\"439.04\" y=\"54.16\" width=\"18.73\" height=\"21.1\"></rect>..."
   },
   {
-    "css": "#BI"
+    "tag": "path",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"Layer_1\"]/g[1]/path[1]",
+    "sample": "<path d=\"M538.68,96.12c-2.68-3.34-5.83-6.02-9.44-8.04c-4.86-2.71-10.47-4.06-16.8..."
   },
   {
-    "css": "#BE"
+    "tag": "path",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"Layer_1\"]/g[1]/path[2]",
+    "sample": "<path d=\"M638.71,96.21c-3.43-3.86-7.63-6.85-12.59-8.99c-4.97-2.13-10.62-3.21-16...."
   },
   {
-    "css": "#BJ"
+    "tag": "path",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"Layer_1\"]/g[1]/path[3]",
+    "sample": "<path d=\"M721.31,88.08c-4.76-2.71-10.21-4.06-16.35-4.06c-5.94,0-11.13,1.36-15.58..."
   },
   {
-    "css": "#BF"
+    "tag": "path",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"Layer_1\"]/g[1]/path[4]",
+    "sample": "<path d=\"M797.16,154.52c-0.97,0.1-1.87,0.16-2.69,0.16c-3.17,0-5.81-0.52-7.91-1.5..."
   },
   {
-    "css": "#BD"
+    "tag": "path",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"Layer_1\"]/g[1]/path[5]",
+    "sample": "<path d=\"M318.14,61.51c-8.85-4.9-19.27-7.34-31.24-7.34h-41.94v116.46h41.94c11.98..."
   },
   {
-    "css": "#BG"
+    "tag": "g",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"Layer_1\"]/g[2]",
+    "sample": "<g><path d=\"M200.87,110.85c0,33.96-12.19,61.94-33.03,81.28c-0.24,0.21-0.42,0.43-..."
   },
   {
-    "css": "#BS"
+    "tag": "path",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"Layer_1\"]/g[2]/path[1]",
+    "sample": "<path d=\"M200.87,110.85c0,33.96-12.19,61.94-33.03,81.28c-0.24,0.21-0.42,0.43-0.6..."
   },
   {
-    "css": "#BA"
+    "tag": "path",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"Layer_1\"]/g[2]/path[2]",
+    "sample": "<path d=\"M142.75,12.83l-0.99,1.47L0.74,119.34L0,118.65c0,0,0-0.03,0-0.06V0.45h85..."
   },
   {
-    "css": "#BY"
+    "tag": "g",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"Layer_1\"]/g[2]/g[1]",
+    "sample": "<g><path d=\"M142.75,12.83L0,118.65v99.27v3.62h85.96c7.61,0,14.94-0.58,21.99-1.66..."
   },
   {
-    "css": "#BZ"
+    "tag": "path",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"Layer_1\"]/g[2]/g[1]/path[1]",
+    "sample": "<path d=\"M142.75,12.83L0,118.65v99.27v3.62h85.96c7.61,0,14.94-0.58,21.99-1.66 C1..."
   },
   {
-    "css": "#BO"
+    "tag": "main",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]",
+    "sample": "<main role=\"main\" class=\"ml-sm-auto col-xl-10 px-4 bgc-grey-100\"><h6 class=\"laye..."
   },
   {
-    "css": "#BR"
+    "tag": "h6",
+    "locatorType": "text",
+    "locator": "My Tasks",
+    "sample": "<h6 class=\"layer w-100\">My Tasks</h6>..."
   },
   {
-    "css": "#BN"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]",
+    "sample": "<div class=\"row\"><div class=\"col-12\"><div class=\"row\"><div class=\"data-tile col\"..."
   },
   {
-    "css": "#BT"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]",
+    "sample": "<div class=\"col-12\"><div class=\"row\"><div class=\"data-tile col\"><div class=\"laye..."
   },
   {
-    "css": "#BW"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]",
+    "sample": "<div class=\"row\"><div class=\"data-tile col\"><div class=\"layers bgc-white p-20 da..."
   },
   {
-    "css": "#CF"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]",
+    "sample": "<div class=\"data-tile col\"><div class=\"layers bgc-white p-20 dashboard-component..."
   },
   {
-    "css": "#CA"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+    "sample": "<div class=\"layers bgc-white p-20 dashboard-component\" style=\"border-left: 3px s..."
   },
   {
-    "css": "#CH"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+    "sample": "<div class=\"layer w-100\"><div style=\"color: rgb(84, 158, 227);\" class=\"value\">0<..."
   },
   {
-    "css": "#CL"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+    "sample": "<div style=\"color: rgb(84, 158, 227);\" class=\"value\">0</div>..."
   },
   {
-    "css": "#CN"
+    "tag": "h6",
+    "locatorType": "text",
+    "locator": "Third Parties with Updated UBO information",
+    "sample": "<h6 class=\"lh-1\">Third Parties with Updated UBO information</h6>..."
   },
   {
-    "css": "#CI"
+    "tag": "hr",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/hr[1]",
+    "sample": "<hr>..."
   },
   {
-    "css": "#CM"
+    "tag": "a",
+    "locatorType": "text",
+    "locator": "View Third Parties",
+    "sample": "<a href=\"javascript:void(0)\">View Third Parties</a>..."
   },
   {
-    "css": "#CD"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[2]",
+    "sample": "<div class=\"data-tile col\"><div class=\"layers bgc-white p-20 dashboard-component..."
   },
   {
-    "css": "#CG"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+    "sample": "<div class=\"layers bgc-white p-20 dashboard-component\" style=\"border-left: 3px s..."
   },
   {
-    "css": "#CO"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]",
+    "sample": "<div class=\"layer w-100\"><div style=\"color: rgb(84, 158, 227);\" class=\"value\">10..."
   },
   {
-    "css": "#CR"
+    "tag": "div",
+    "locatorType": "text",
+    "locator": "103",
+    "sample": "<div style=\"color: rgb(84, 158, 227);\" class=\"value\">103</div>..."
   },
   {
-    "css": "#CU"
+    "tag": "h6",
+    "locatorType": "text",
+    "locator": "Monitor Hits Needing Review",
+    "sample": "<h6 class=\"lh-1\">Monitor Hits Needing Review</h6>..."
   },
   {
-    "css": "#-99"
+    "tag": "hr",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/hr[1]",
+    "sample": "<hr>..."
   },
   {
-    "css": "#CY"
+    "tag": "a",
+    "locatorType": "text",
+    "locator": "View Hits",
+    "sample": "<a href=\"javascript:void(0)\">View Hits</a>..."
   },
   {
-    "css": "#CZ"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[3]",
+    "sample": "<div class=\"data-tile col\"><div class=\"layers bgc-white p-20 dashboard-component..."
   },
   {
-    "css": "#DE"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]",
+    "sample": "<div class=\"layers bgc-white p-20 dashboard-component\" style=\"border-left: 3px s..."
   },
   {
-    "css": "#DJ"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]",
+    "sample": "<div class=\"layer w-100\"><div style=\"color: rgb(84, 158, 227);\" class=\"value\">0<..."
   },
   {
-    "css": "#DK"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+    "sample": "<div style=\"color: rgb(84, 158, 227);\" class=\"value\">0</div>..."
   },
   {
-    "css": "#DO"
+    "tag": "h6",
+    "locatorType": "text",
+    "locator": "True Matches Needing Remediation",
+    "sample": "<h6 class=\"lh-1\">True Matches Needing Remediation</h6>..."
   },
   {
-    "css": "#DZ"
+    "tag": "hr",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/hr[1]",
+    "sample": "<hr>..."
   },
   {
-    "css": "#EC"
+    "tag": "a",
+    "locatorType": "text",
+    "locator": "View True Matches",
+    "sample": "<a href=\"javascript:void(0)\">View True Matches</a>..."
   },
   {
-    "css": "#EG"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[4]",
+    "sample": "<div class=\"data-tile col\"><div class=\"layers bgc-white p-20 dashboard-component..."
   },
   {
-    "css": "#ER"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[4]/div[1]",
+    "sample": "<div class=\"layers bgc-white p-20 dashboard-component\" style=\"border-left: 3px s..."
   },
   {
-    "css": "#ES"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]",
+    "sample": "<div class=\"layer w-100\"><div style=\"color: rgb(84, 158, 227);\" class=\"value\">0<..."
   },
   {
-    "css": "#EE"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]",
+    "sample": "<div style=\"color: rgb(84, 158, 227);\" class=\"value\">0</div>..."
   },
   {
-    "css": "#ET"
+    "tag": "h6",
+    "locatorType": "text",
+    "locator": "Questionnaires Needing Review",
+    "sample": "<h6 class=\"lh-1\">Questionnaires Needing Review</h6>..."
   },
   {
-    "css": "#FI"
+    "tag": "hr",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/hr[1]",
+    "sample": "<hr>..."
   },
   {
-    "css": "#FJ"
+    "tag": "a",
+    "locatorType": "text",
+    "locator": "View Questionnaires",
+    "sample": "<a href=\"javascript:void(0)\">View Questionnaires</a>..."
   },
   {
-    "css": "#FK"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[5]",
+    "sample": "<div class=\"data-tile col\"><div class=\"layers bgc-white p-20 dashboard-component..."
   },
   {
-    "css": "#FR"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[5]/div[1]",
+    "sample": "<div class=\"layers bgc-white p-20 dashboard-component\" style=\"border-left: 3px s..."
   },
   {
-    "css": "#GA"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]",
+    "sample": "<div class=\"layer w-100\"><div style=\"color: rgb(84, 158, 227);\" class=\"value\">0<..."
   },
   {
-    "css": "#UK"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]",
+    "sample": "<div style=\"color: rgb(84, 158, 227);\" class=\"value\">0</div>..."
   },
   {
-    "css": "#GE"
+    "tag": "h6",
+    "locatorType": "text",
+    "locator": "Investigations Needing Review",
+    "sample": "<h6 class=\"lh-1\">Investigations Needing Review</h6>..."
   },
   {
-    "css": "#GH"
+    "tag": "hr",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/hr[1]",
+    "sample": "<hr>..."
   },
   {
-    "css": "#GN"
+    "tag": "a",
+    "locatorType": "text",
+    "locator": "View Investigations",
+    "sample": "<a href=\"javascript:void(0)\">View Investigations</a>..."
   },
   {
-    "css": "#GM"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[6]",
+    "sample": "<div class=\"data-tile col\"><div class=\"layers bgc-white p-20 dashboard-component..."
   },
   {
-    "css": "#GW"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[6]/div[1]",
+    "sample": "<div class=\"layers bgc-white p-20 dashboard-component\" style=\"border-left: 3px s..."
   },
   {
-    "css": "#GQ"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]",
+    "sample": "<div class=\"layer w-100\"><div style=\"color: rgb(84, 158, 227);\" class=\"value\">1<..."
   },
   {
-    "css": "#GR"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]",
+    "sample": "<div style=\"color: rgb(84, 158, 227);\" class=\"value\">1</div>..."
   },
   {
-    "css": "#GL"
+    "tag": "h6",
+    "locatorType": "text",
+    "locator": "Third Parties Pending Approval",
+    "sample": "<h6 class=\"lh-1\">Third Parties Pending Approval</h6>..."
   },
   {
-    "css": "#GT"
+    "tag": "hr",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/hr[1]",
+    "sample": "<hr>..."
   },
   {
-    "css": "#GY"
+          "tag": "a",
+      "locatorType": "text",
+      "locator": "View Entity",
+      "sample": "<a href=\"javascript:void(0)\">View Entity</a>..."
   },
   {
-    "css": "#HN"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[2]",
+    "sample": "<div class=\"row\"><div class=\"col-9\"><div class=\"bd bgc-white dashboard-component..."
   },
   {
-    "css": "#HR"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[2]/div[1]",
+    "sample": "<div class=\"col-9\"><div class=\"bd bgc-white dashboard-component\"><div class=\"lay..."
   },
   {
-    "css": "#HT"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[2]/div[1]/div[1]",
+    "sample": "<div class=\"bd bgc-white dashboard-component\"><div class=\"layers bgc-white p-20\"..."
   },
   {
-    "css": "#HU"
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[2]/div[1]/div[1]/div[1]",
+    "sample": "<div class=\"layers bgc-white p-20\"><h6 class=\"layer w-100\">Open Case Map</h6><di..."
   },
   {
-    "css": "#ID"
+    "tag": "h6",
+    "locatorType": "text",
+    "locator": "Open Case Map",
+    "sample": "<h6 class=\"layer w-100\">Open Case Map</h6>..."
   },
   {
-    "css": "#IN"
+    "tag": "div",
+    "locatorType": "id",
+    "locator": "map-container",
+    "sample": "<div id=\"map-container\" class=\"layer w-100\"><svg id=\"map\" width=\"800\" height=\"45..."
   },
   {
-    "css": "#IE"
+    "tag": "svg",
+    "locatorType": "id",
+    "locator": "map",
+    "sample": "<svg id=\"map\" width=\"800\" height=\"450\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:..."
   },
   {
-    "css": "#IR"
+    "tag": "g",
+    "locatorType": "id",
+    "locator": "countries",
+    "sample": "<g id=\"countries\" class=\"countries svg-pan-zoom_viewport\" scale=\"100\" transform=..."
   },
   {
-    "css": "#IQ"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "AF",
+    "sample": "<path id=\"AF\" d=\"M506.856,158.337L508.616,159.156L509.935,158.858L510.312,157.88..."
   },
   {
-    "css": "#IS"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "AO",
+    "sample": "<path id=\"AO\" d=\"M441.756,244.196L441.944,244.752L441.693,245.618L442.007,246.45..."
   },
   {
-    "css": "#IL"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "AL",
+    "sample": "<path id=\"AL\" d=\"M435.912,144.407L435.723,145.219L435.975,146.228L436.666,146.78..."
   },
   {
-    "css": "#IT"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "AE",
+    "sample": "<path id=\"AE\" d=\"M490.016,181.348L490.33,181.281L490.393,181.779L491.775,181.48L..."
   },
   {
-    "css": "#JM"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "AR",
+    "sample": "<path id=\"AR\" d=\"M283.152,340.128L282.084,340.023L280.199,340.023L280.199,333.40..."
   },
   {
-    "css": "#JO"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "AM",
+    "sample": "<path id=\"AM\" d=\"M476.066,146.187L478.516,145.825L478.83,146.428L479.522,146.829..."
   },
   {
-    "css": "#JP"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "AQ",
+    "sample": "<path id=\"AQ\" d=\"M296.034,468.944L295.532,474.338L295.029,479.257L291.321,477.71..."
   },
   {
-    "css": "#KZ"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "TF",
+    "sample": "<path id=\"TF\" d=\"M520.304,322.41L521.435,323.238L523.068,323.561L523.131,324.071..."
   },
   {
-    "css": "#KE"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "AU",
+    "sample": "<path id=\"AU\" d=\"M653.772,303.088L655.468,303.89L656.411,303.569L657.793,303.128..."
   },
   {
-    "css": "#KG"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "AT",
+    "sample": "<path id=\"AT\" d=\"M429.628,128.911L429.503,129.996L428.497,129.996L428.874,130.58..."
   },
   {
-    "css": "#KH"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "AZ",
+    "sample": "<path id=\"AZ\" d=\"M480.527,151.563L479.333,151.252L478.453,150.197L478.202,149.37..."
   },
   {
-    "css": "#KR"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "BI",
+    "sample": "<path id=\"BI\" d=\"M451.182,232.872L451.119,230.746L450.679,229.957L451.747,230.10..."
   },
   {
-    "css": "#KW"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "BE",
+    "sample": "<path id=\"BE\" d=\"M405.813,120.23L407.069,120.424L408.703,119.842L409.771,121.101..."
   },
   {
-    "css": "#LA"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "BJ",
+    "sample": "<path id=\"BJ\" d=\"M404.681,214.05L403.236,214.264L402.796,213.044L402.922,209.003..."
   },
   {
-    "css": "#LB"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "BF",
+    "sample": "<path id=\"BF\" d=\"M395.067,208.082L393.873,207.62L393.056,207.713L392.428,208.143..."
   },
   {
-    "css": "#LR"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "BD",
+    "sample": "<path id=\"BD\" d=\"M561.714,185.534L561.714,186.904L561.086,186.611L561.211,188.10..."
   },
   {
-    "css": "#LY"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "BG",
+    "sample": "<path id=\"BG\" d=\"M439.557,138.724L440.059,139.735L440.751,139.567L442.07,139.945..."
   },
   {
-    "css": "#LK"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "BS",
+    "sample": "<path id=\"BS\" d=\"M264.678,182.277L264.238,182.376L263.798,181.281L263.17,180.715..."
   },
   {
-    "css": "#LS"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "BA",
+    "sample": "<path id=\"BA\" d=\"M433.147,137.192L433.775,137.192L433.336,138.3L434.215,139.23L4..."
   },
   {
-    "css": "#LT"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "BY",
+    "sample": "<path id=\"BY\" d=\"M441.002,112.837L442.699,112.837L444.584,111.752L444.961,110.02..."
   },
   {
-    "css": "#LU"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "BZ",
+    "sample": "<path id=\"BZ\" d=\"M244.444,193.403L244.381,193.148L244.633,193.053L244.947,193.27..."
   },
   {
-    "css": "#LV"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "BO",
+    "sample": "<path id=\"BO\" d=\"M282.901,265.775L281.644,266.038L280.953,263.419L280.011,261.34..."
   },
   {
-    "css": "#MA"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "BR",
+    "sample": "<path id=\"BR\" d=\"M299.428,280.35L301.753,277.633L303.701,275.704L304.894,274.917..."
   },
   {
-    "css": "#MD"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "BN",
+    "sample": "<path id=\"BN\" d=\"M599.354,217.095L600.045,216.426L601.49,215.483L601.428,216.335..."
   },
   {
-    "css": "#MG"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "BT",
+    "sample": "<path id=\"BT\" d=\"M560.017,174.499L560.771,175.149L560.646,176.341L559.2,176.409L..."
   },
   {
-    "css": "#MX"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "BW",
+    "sample": "<path id=\"BW\" d=\"M451.37,264.562L448.919,265.939L447.349,267.357L446.72,268.617L..."
   },
   {
-    "css": "#MK"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "CF",
+    "sample": "<path id=\"CF\" d=\"M426.675,212.005L428.12,211.883L428.434,211.424L428.748,211.455..."
   },
   {
-    "css": "#ML"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "CA",
+    "sample": "<path id=\"CA\" d=\"M288.871,132.982L290.128,133.334L291.761,133.246L290.882,134.29..."
   },
   {
-    "css": "#MM"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "CH",
+    "sample": "<path id=\"CH\" d=\"M416.746,130.491L416.809,130.939L416.558,131.564L417.312,132.05..."
   },
   {
-    "css": "#ME"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "CL",
+    "sample": "<path id=\"CL\" d=\"M280.199,333.409L280.199,340.023L282.084,340.023L283.152,340.12..."
   },
   {
-    "css": "#MN"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "CN",
+    "sample": "<path id=\"CN\" d=\"M592.567,191.808L591.059,192.702L589.614,192.127L589.614,190.52..."
   },
   {
-    "css": "#MZ"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "CI",
+    "sample": "<path id=\"CI\" d=\"M395.004,216.274L394.25,216.304L392.994,215.939L391.862,215.97L..."
   },
   {
-    "css": "#MR"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "CM",
+    "sample": "<path id=\"CM\" d=\"M422.842,221.043L422.59,220.952L421.585,221.164L420.517,220.952..."
   },
   {
-    "css": "#MW"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "CD",
+    "sample": "<path id=\"CD\" d=\"M453.821,218.857L453.695,220.921L454.386,221.164L453.821,221.77..."
   },
   {
-    "css": "#MY"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "CG",
+    "sample": "<path id=\"CG\" d=\"M422.653,233.359L422.025,232.751L421.522,233.055L420.768,233.81..."
   },
   {
-    "css": "#NA"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "CO",
+    "sample": "<path id=\"CO\" d=\"M268.448,225.257L267.694,224.863L266.815,224.287L266.375,224.55..."
   },
   {
-    "css": "#NC"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "CR",
+    "sample": "<path id=\"CR\" d=\"M255.19,210.598L254.247,210.2L253.87,209.832L254.121,209.525L25..."
   },
   {
-    "css": "#NE"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "CU",
+    "sample": "<path id=\"CU\" d=\"M256.446,183.367L257.892,183.499L259.274,183.532L260.908,184.19..."
   },
   {
-    "css": "#NG"
+    "tag": "path",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"countries\"]/path[39]",
+    "sample": "<path id=\"-99\" d=\"M457.151,159.415L457.277,159.415L457.528,158.896L458.785,158.9..."
   },
   {
-    "css": "#NI"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "CY",
+    "sample": "<path id=\"CY\" d=\"M459.288,159.6L459.351,159.749L457.591,160.634L456.711,160.339L..."
   },
   {
-    "css": "#NL"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "CZ",
+    "sample": "<path id=\"CZ\" d=\"M429.628,127.679L428.811,127.174L427.994,127.312L426.612,126.52..."
   },
   {
-    "css": "#NO"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "DE",
+    "sample": "<path id=\"DE\" d=\"M417.312,109.604L417.375,110.814L419.134,111.492L419.071,112.57..."
   },
   {
-    "css": "#NP"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "DJ",
+    "sample": "<path id=\"DJ\" d=\"M475.186,202.643L475.626,203.202L475.563,203.947L474.557,204.38..."
   },
   {
-    "css": "#NZ"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "DK",
+    "sample": "<path id=\"DK\" d=\"M422.15,107.688L421.082,110.184L419.26,108.437L419.009,107.204L..."
   },
   {
-    "css": "#OM"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "DO",
+    "sample": "<path id=\"DO\" d=\"M274.858,189.882L275.046,189.56L276.429,189.592L277.434,190.075..."
   },
   {
-    "css": "#PK"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "DZ",
+    "sample": "<path id=\"DZ\" d=\"M420.957,182.839L414.987,186.448L409.897,190.107L407.446,190.94..."
   },
   {
-    "css": "#PA"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "EC",
+    "sample": "<path id=\"EC\" d=\"M259.84,230.958L260.782,229.653L260.405,228.864L259.714,229.684..."
   },
   {
-    "css": "#PE"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "EG",
+    "sample": "<path id=\"EG\" d=\"M460.922,171.08L460.482,171.88L460.105,173.366L459.602,174.397L..."
   },
   {
-    "css": "#PH"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "ER",
+    "sample": "<path id=\"ER\" d=\"M473.929,202.923L473.301,202.364L472.609,201.305L471.855,200.71..."
   },
   {
-    "css": "#PG"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "ES",
+    "sample": "<path id=\"ES\" d=\"M384.259,144.366L384.322,142.688L383.631,141.655L386.081,139.90..."
   },
   {
-    "css": "#PL"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "EE",
+    "sample": "<path id=\"EE\" d=\"M442.447,100.784L442.636,98.835L442.007,99.239L440.876,98.023L4..."
   },
   {
-    "css": "#PR"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "ET",
+    "sample": "<path id=\"ET\" d=\"M471.353,200.119L471.855,200.713L472.609,201.305L473.301,202.36..."
   },
   {
-    "css": "#KP"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "FI",
+    "sample": "<path id=\"FI\" d=\"M449.925,56.163L449.674,59.502L452.313,62.581L450.679,66.041L45..."
   },
   {
-    "css": "#PT"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "FJ",
+    "sample": "<path id=\"FJ\" d=\"M711.332,255.736L711.897,256.276L711.646,257.232L710.577,257.48..."
   },
   {
-    "css": "#PY"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "FK",
+    "sample": "<path id=\"FK\" d=\"M293.207,331.181L295.28,329.524L296.788,330.204L297.794,329.089..."
   },
   {
-    "css": "#PS"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "FR",
+    "sample": "<path id=\"FR\" d=\"M304.832,220.952L305.272,220.223L305.46,219.434L305.711,218.675..."
   },
   {
-    "css": "#QA"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "GA",
+    "sample": "<path id=\"GA\" d=\"M419.386,231.961L417.563,230.199L416.432,228.743L415.364,226.95..."
   },
   {
-    "css": "#RO"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "UK",
+    "sample": "<path id=\"UK\" d=\"M389.16,112.991L387.841,112.373L386.773,112.425L387.15,110.814L..."
   },
   {
-    "css": "#RU"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "GE",
+    "sample": "<path id=\"GE\" d=\"M472.547,145.178L472.798,144.163L472.358,142.564L471.353,141.69..."
   },
   {
-    "css": "#RW"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "GH",
+    "sample": "<path id=\"GH\" d=\"M401.854,214.63L399.089,215.665L398.146,216.274L396.575,216.761..."
   },
   {
-    "css": "#EH"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "GN",
+    "sample": "<path id=\"GN\" d=\"M385.264,211.546L384.762,211.485L384.448,212.219L383.945,212.18..."
   },
   {
-    "css": "#SA"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "GM",
+    "sample": "<path id=\"GM\" d=\"M370.623,201.835L370.812,201.056L372.76,200.994L373.137,200.557..."
   },
   {
-    "css": "#SD"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "GW",
+    "sample": "<path id=\"GW\" d=\"M373.577,205.617L372.634,204.875L371.943,204.751L371.503,204.25..."
   },
   {
-    "css": "#SS"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "GQ",
+    "sample": "<path id=\"GQ\" d=\"M416.558,223.226L416.244,222.983L416.872,221.012L419.7,221.043L..."
   },
   {
-    "css": "#SN"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "GR",
+    "sample": "<path id=\"GR\" d=\"M441.379,158.225L442.321,158.933L443.704,158.821L444.961,158.97..."
   },
   {
-    "css": "#SB"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "GL",
+    "sample": "<path id=\"GL\" d=\"M318.405,-49.129L324.249,-57.746L330.344,-56.978L332.606,-62.48..."
   },
   {
-    "css": "#SL"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "GT",
+    "sample": "<path id=\"GT\" d=\"M242.748,200.806L241.868,200.494L240.8,200.463L239.983,200.088L..."
   },
   {
-    "css": "#SV"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "GY",
+    "sample": "<path id=\"GY\" d=\"M295.72,210.353L296.851,210.996L297.919,212.127L297.982,213.044..."
   },
   {
-    "css": "#SO"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "HN",
+    "sample": "<path id=\"HN\" d=\"M247.586,202.146L247.272,201.586L246.769,201.43L246.895,200.713..."
   },
   {
-    "css": "#RS"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "HR",
+    "sample": "<path id=\"HR\" d=\"M432.896,134.603L433.273,135.558L433.838,136.291L433.147,137.19..."
   },
   {
-    "css": "#SR"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "HT",
+    "sample": "<path id=\"HT\" d=\"M274.858,189.882L274.984,190.91L274.858,191.616L274.418,191.935..."
   },
   {
-    "css": "#SK"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "HU",
+    "sample": "<path id=\"HU\" d=\"M428.309,132.23L428.874,130.581L428.497,129.996L429.503,129.996..."
   },
   {
-    "css": "#SI"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "ID",
+    "sample": "<path id=\"ID\" d=\"M610.665,242.962L609.974,242.993L607.649,241.762L609.282,241.42..."
   },
   {
-    "css": "#SE"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "IN",
+    "sample": "<path id=\"IN\" d=\"M535.825,158.672L537.71,161.149L537.521,162.865L538.275,163.953..."
   },
   {
-    "css": "#SZ"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "IE",
+    "sample": "<path id=\"IE\" d=\"M389.16,112.991L389.475,115.081L388.155,117.632L385.076,119.305..."
   },
   {
-    "css": "#SY"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "IR",
+    "sample": "<path id=\"IR\" d=\"M494.1,154.985L495.671,154.527L496.865,153.263L498.059,153.34L4..."
   },
   {
-    "css": "#TD"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "IQ",
+    "sample": "<path id=\"IQ\" d=\"M484.737,170.208L483.732,170.103L482.538,169.963L481.281,171.88..."
   },
   {
-    "css": "#TG"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "IS",
+    "sample": "<path id=\"IS\" d=\"M374.708,68.186L374.268,70.958L376.216,73.805L373.954,76.932L36..."
   },
   {
-    "css": "#TH"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "IL",
+    "sample": "<path id=\"IL\" d=\"M462.367,164.53L462.053,165.177L461.424,164.89L461.047,166.287L..."
   },
   {
-    "css": "#TJ"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "IT",
+    "sample": "<path id=\"IT\" d=\"M427.115,152.686L426.486,154.413L426.738,155.099L426.361,156.23..."
   },
   {
-    "css": "#TM"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "JM",
+    "sample": "<path id=\"JM\" d=\"M264.615,192.159L265.809,192.319L266.689,192.766L267.003,193.27..."
   },
   {
-    "css": "#TL"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "JO",
+    "sample": "<path id=\"JO\" d=\"M462.053,165.177L462.367,164.53L464.315,165.357L467.708,163.12L..."
   },
   {
-    "css": "#TT"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "JP",
+    "sample": "<path id=\"JP\" d=\"M634.983,161.515L635.235,162.246L634.229,163.519L633.538,162.82..."
   },
   {
-    "css": "#TN"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "KZ",
+    "sample": "<path id=\"KZ\" d=\"M523.823,143.468L522.88,143.877L520.555,145.542L519.801,147.19L..."
   },
   {
-    "css": "#TR"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "KE",
+    "sample": "<path id=\"KE\" d=\"M472.609,227.924L471.353,228.622L470.913,229.35L470.284,229.502..."
   },
   {
-    "css": "#TW"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "KG",
+    "sample": "<path id=\"KG\" d=\"M523.823,143.468L524.262,142.4L525.394,142.069L528.284,142.894L..."
   },
   {
-    "css": "#TZ"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "KH",
+    "sample": "<path id=\"KH\" d=\"M579.057,203.575L578.617,201.399L579.748,199.901L582.011,199.55..."
   },
   {
-    "css": "#UG"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "KR",
+    "sample": "<path id=\"KR\" d=\"M623.987,151.835L625.495,154.451L625.935,155.857L625.935,158.37..."
   },
   {
-    "css": "#UA"
+    "tag": "path",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"countries\"]/path[89]",
+    "sample": "<path id=\"-99\" d=\"M435.912,144.407L435.849,143.55L435.409,143.345L435.032,142.68..."
   },
   {
-    "css": "#UY"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "KW",
+    "sample": "<path id=\"KW\" d=\"M483.732,170.103L484.109,171.011L483.92,171.463L484.486,172.952..."
   },
   {
-    "css": "#US"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "LA",
+    "sample": "<path id=\"LA\" d=\"M583.644,199.838L584.21,199.024L584.273,197.485L582.89,195.909L..."
   },
   {
-    "css": "#UZ"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "LB",
+    "sample": "<path id=\"LB\" d=\"M462.493,163.337L462.053,163.374L461.864,163.736L461.299,163.73..."
   },
   {
-    "css": "#VE"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "LR",
+    "sample": "<path id=\"LR\" d=\"M386.521,217.369L386.081,217.399L384.259,216.548L382.688,215.20..."
   },
   {
-    "css": "#VN"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "LY",
+    "sample": "<path id=\"LY\" d=\"M425.921,183.993L424.664,184.683L423.721,183.664L420.957,182.83..."
   },
   {
-    "css": "#VU"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "LK",
+    "sample": "<path id=\"LK\" d=\"M542.737,211.822L542.485,213.654L541.731,214.172L540.223,214.56..."
   },
   {
-    "css": "#YE"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "LS",
+    "sample": "<path id=\"LS\" d=\"M450.553,277.841L451.182,278.43L450.616,279.406L450.365,280.07L..."
   },
   {
-    "css": "#ZA"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "LT",
+    "sample": "<path id=\"LT\" d=\"M439.682,111.596L439.557,110.814L439.745,110.026L438.928,109.55..."
   },
   {
-    "css": "#ZM"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "LU",
+    "sample": "<path id=\"LU\" d=\"M410.525,123.583L410.902,124.196L410.777,125.367L410.274,125.41..."
   },
   {
-    "css": "#ZW"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "LV",
+    "sample": "<path id=\"LV\" d=\"M436.729,106.393L436.792,104.037L437.671,102.028L439.305,100.89..."
   },
   {
-    "css": "script"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "MA",
+    "sample": "<path id=\"MA\" d=\"M396.198,159.341L396.89,160.708L396.952,161.991L397.581,164.205..."
   },
   {
-    "css": "#legend"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "MD",
+    "sample": "<path id=\"MD\" d=\"M446.469,128.684L446.846,128.274L448.04,128.045L449.297,128.865..."
   },
   {
-    "css": "ul"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "MG",
+    "sample": "<path id=\"MG\" d=\"M486.497,246.951L486.937,247.696L487.376,248.88L487.628,251.036..."
   },
   {
-    "css": "li"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "MX",
+    "sample": "<path id=\"MX\" d=\"M230.431,178.236L229.803,179.914L229.489,181.314L229.363,183.86..."
   },
   {
-    "class": "color"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "MK",
+    "sample": "<path id=\"MK\" d=\"M435.912,144.407L436.163,144.448L436.226,143.959L437.294,143.59..."
   },
   {
-    "css": "span:nth-of-type(2)"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "ML",
+    "sample": "<path id=\"ML\" d=\"M378.729,199.212L379.358,198.867L379.609,197.8L380.175,197.769L..."
   },
   {
-    "class": "col-3"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "MM",
+    "sample": "<path id=\"MM\" d=\"M572.019,207.59L571.831,206.265L572.396,204.906L571.768,203.854..."
   },
   {
-    "css": ".layers.bgc-white.p-20.dashboard-component.tile"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "ME",
+    "sample": "<path id=\"ME\" d=\"M433.838,144.366L433.461,144.204L432.959,143.427L432.205,142.93..."
   },
   {
-    "class": "bdrs-3"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "MN",
+    "sample": "<path id=\"MN\" d=\"M553.168,125.833L554.99,125.367L558.321,123.014L560.96,121.726L..."
   },
   {
-    "class": "ReactTable"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "MZ",
+    "sample": "<path id=\"MZ\" d=\"M460.293,245.246L461.613,245.092L463.749,245.587L464.189,245.37..."
   },
   {
-    "class": "rt-table"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "MR",
+    "sample": "<path id=\"MR\" d=\"M378.729,199.212L377.598,197.957L376.53,196.635L375.399,196.162..."
   },
   {
-    "class": "rt-thead"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "MW",
+    "sample": "<path id=\"MW\" d=\"M460.293,245.246L459.853,246.609L460.293,248.942L460.922,248.91..."
   },
   {
-    "css": ".rt-tr"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "MY",
+    "sample": "<path id=\"MY\" d=\"M578.24,214.111L578.68,214.294L579.686,215.33L580.44,216.517L58..."
   },
   {
-    "css": ".rt-th.rt-resizable-header.-cursor-pointer"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "NA",
+    "sample": "<path id=\"NA\" d=\"M428.497,277.08L427.24,275.601L426.549,274.166L426.172,272.234L..."
   },
   {
-    "css": ".rt-resizable-header-content"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "NC",
+    "sample": "<path id=\"NC\" d=\"M689.338,262.638L690.783,263.81L691.663,264.692L691.035,265.118..."
   },
   {
-    "css": ".rt-resizer"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "NE",
+    "sample": "<path id=\"NE\" d=\"M403.739,204.008L403.802,202.799L401.791,202.364L401.728,201.52..."
   },
   {
-    "class": "rt-tbody"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "NG",
+    "sample": "<path id=\"NG\" d=\"M414.861,216.669L413.039,217.277L412.348,217.186L411.719,217.58..."
   },
   {
-    "css": ".rt-tr-group"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "NI",
+    "sample": "<path id=\"NI\" d=\"M250.414,205.524L249.785,204.968L248.969,204.256L248.592,203.63..."
   },
   {
-    "css": ".rt-tr.-padRow.-odd"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "NL",
+    "sample": "<path id=\"NL\" d=\"M412.034,114.117L412.348,115.081L411.971,117.731L411.531,118.81..."
   },
   {
-    "css": ".rt-td.no-trsl"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "NO",
+    "sample": "<path id=\"NO\" d=\"M454.261,53.675L451.307,55.653L449.925,56.163L450.616,52.628L44..."
   },
   {
-    "css": ".rt-td"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "NP",
+    "sample": "<path id=\"NP\" d=\"M553.796,174.294L553.671,175.149L553.922,176.409L553.671,177.15..."
   },
   {
-    "css": ".rt-tr.-padRow.-even"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "NZ",
+    "sample": "<path id=\"NZ\" d=\"M701.969,303.408L702.346,304.374L703.602,303.408L704.105,304.41..."
   },
   {
-    "class": "pagination-bottom"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "OM",
+    "sample": "<path id=\"OM\" d=\"M492.718,195.529L492.152,194.23L490.77,191.199L495.985,189.366L..."
   },
   {
-    "class": "-pagination"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "PK",
+    "sample": "<path id=\"PK\" d=\"M531.175,155.099L532.494,156.122L532.997,157.777L535.825,158.67..."
   },
   {
-    "class": "-previous"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "PA",
+    "sample": "<path id=\"PA\" d=\"M264.05,212.372L263.484,211.852L263.107,210.904L263.547,210.414..."
   },
   {
-    "css": ".-btn"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "PE",
+    "sample": "<path id=\"PE\" d=\"M278.565,256.181L278.063,257.104L277.183,257.583L275.423,256.53..."
   },
   {
-    "class": "-center"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "PH",
+    "sample": "<path id=\"PH\" d=\"M620.593,210.261L620.719,211.424L620.845,212.433L620.279,214.02..."
   },
   {
-    "class": "-pageInfo"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "PG",
+    "sample": "<path id=\"PG\" d=\"M672.058,236.924L671.555,237.107L670.801,236.435L670.047,235.30..."
   },
   {
-    "class": "-pageJump"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "PL",
+    "sample": "<path id=\"PL\" d=\"M426.235,120.908L425.481,119.109L425.607,118.127L425.23,116.588..."
   },
   {
-    "css": "input"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "PR",
+    "sample": "<path id=\"PR\" d=\"M284.346,192.095L285.226,192.255L285.54,192.638L285.1,193.085L2..."
   },
   {
-    "class": "-totalPages"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "KP",
+    "sample": "<path id=\"KP\" d=\"M628.008,143.14L628.26,143.55L627.568,143.427L626.814,144.204L6..."
   },
   {
-    "class": "select-wrap"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "PT",
+    "sample": "<path id=\"PT\" d=\"M384.259,144.366L384.887,143.755L385.579,143.427L386.019,144.57..."
   },
   {
-    "css": "select"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "PY",
+    "sample": "<path id=\"PY\" d=\"M290.567,264.856L291.259,262.606L291.321,261.601L292.138,259.95..."
   },
   {
-    "class": "-next"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "PS",
+    "sample": "<path id=\"PS\" d=\"M462.053,165.177L462.053,166.429L461.801,167.035L460.984,167.31..."
   },
   {
-    "class": "rt-noData"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "QA",
+    "sample": "<path id=\"QA\" d=\"M488.696,180.382L488.57,178.976L489.01,177.966L489.513,177.764L..."
   },
   {
-    "class": "-loading"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "RO",
+    "sample": "<path id=\"RO\" d=\"M439.619,129.545L440.374,129.002L441.442,129.274L442.573,129.31..."
   },
   {
-    "class": "-loading-inner"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "RU",
+    "sample": "<path id=\"RU\" d=\"M650.693,121.87L652.452,126.667L649.876,125.786L648.808,129.635..."
   },
   {
-    "css": "div:nth-of-type(3)"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "RW",
+    "sample": "<path id=\"RW\" d=\"M453.067,226.984L453.758,227.955L453.695,228.986L453.192,229.22..."
   },
   {
-    "css": "ai-notice-popup-component"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "EH",
+    "sample": "<path id=\"EH\" d=\"M384.636,174.739L384.887,174.739L384.887,174.876L384.825,175.25..."
   },
   {
-    "css": "div:nth-of-type(4)"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "SA",
+    "sample": "<path id=\"SA\" d=\"M474.683,196.067L474.432,195.308L473.929,194.738L473.803,194.00..."
   },
   {
-    "css": "script:nth-of-type(1)"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "SD",
+    "sample": "<path id=\"SD\" d=\"M459.288,208.42L459.036,208.358L459.036,207.497L458.848,206.881..."
   },
   {
-    "css": "script:nth-of-type(2)"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "SS",
+    "sample": "<path id=\"SS\" d=\"M459.288,208.42L459.288,209.77L459.036,210.322L458.094,210.353L..."
   },
   {
-    "css": "script:nth-of-type(3)"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "SN",
+    "sample": "<path id=\"SN\" d=\"M370.812,201.056L370.12,199.65L369.241,198.993L369.995,198.648L..."
   },
   {
-    "css": "script:nth-of-type(4)"
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "SB",
+    "sample": "<path id=\"SB\" d=\"M682.929,243.394L683.431,244.011L682.237,244.011L681.546,242.90..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "SL",
+    "sample": "<path id=\"SL\" d=\"M380.049,213.135L379.546,213.013L378.289,212.28L377.41,211.332L..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "SV",
+    "sample": "<path id=\"SV\" d=\"M246.769,201.43L246.581,201.835L245.575,201.835L244.947,201.648..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"countries\"]/path[146]",
+    "sample": "<path id=\"-99\" d=\"M483.418,210.996L481.91,210.996L476.254,208.911L475.563,208.26..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "SO",
+    "sample": "<path id=\"SO\" d=\"M472.609,227.924L471.541,226.499L471.541,220.132L473.049,218.15..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "RS",
+    "sample": "<path id=\"RS\" d=\"M439.557,138.724L439.117,139.272L439.242,140.155L440.122,141.19..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "SR",
+    "sample": "<path id=\"SR\" d=\"M300.244,214.569L302.381,214.904L302.507,214.599L303.952,214.47..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "SK",
+    "sample": "<path id=\"SK\" d=\"M432.896,125.274L433.021,125.461L433.713,125.087L434.592,126.01..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "SI",
+    "sample": "<path id=\"SI\" d=\"M424.098,133.07L425.544,133.29L426.423,132.717L427.932,132.629L..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "SE",
+    "sample": "<path id=\"SE\" d=\"M419.26,97.205L420.014,95.254L421.459,92.906L422.025,88.693L420..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "SZ",
+    "sample": "<path id=\"SZ\" d=\"M455.957,273.453L455.643,274.337L454.575,274.541L453.57,273.487..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "SY",
+    "sample": "<path id=\"SY\" d=\"M467.708,163.12L464.315,165.357L462.367,164.53L462.304,164.53L4..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "TD",
+    "sample": "<path id=\"TD\" d=\"M425.292,202.364L425.481,201.523L424.35,201.492L424.35,200.338L..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "TG",
+    "sample": "<path id=\"TG\" d=\"M403.236,214.264L401.854,214.63L401.477,214.02L400.974,212.891L..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "TH",
+    "sample": "<path id=\"TH\" d=\"M579.057,203.575L577.486,202.737L575.978,202.768L576.23,201.368..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "TJ",
+    "sample": "<path id=\"TJ\" d=\"M523.948,148.146L523.32,148.859L521.435,148.463L521.246,149.765..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "TM",
+    "sample": "<path id=\"TM\" d=\"M506.856,158.337L506.668,156.5L505.348,156.424L503.4,154.489L50..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "TL",
+    "sample": "<path id=\"TL\" d=\"M618.143,240.596L618.331,240.166L619.839,239.768L621.033,239.70..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "TT",
+    "sample": "<path id=\"TT\" d=\"M292.327,206.111L293.332,205.864L293.709,205.926L293.646,207.25..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "TN",
+    "sample": "<path id=\"TN\" d=\"M416.558,169.437L415.804,165.786L414.736,164.962L414.736,164.45..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "TR",
+    "sample": "<path id=\"TR\" d=\"M472.547,145.178L474.369,145.057L476.066,146.187L476.38,147.03L..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "TW",
+    "sample": "<path id=\"TW\" d=\"M612.55,181.081L611.482,184.124L610.728,185.665L609.848,184.092..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "TZ",
+    "sample": "<path id=\"TZ\" d=\"M459.162,226.651L459.476,226.863L465.823,230.412L465.886,231.41..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "UG",
+    "sample": "<path id=\"UG\" d=\"M453.067,226.984L452.061,227.53L451.622,227.348L451.622,226.014..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "UA",
+    "sample": "<path id=\"UA\" d=\"M455.455,118.077L456.146,118.225L456.586,117.583L457.088,117.68..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "UY",
+    "sample": "<path id=\"UY\" d=\"M299.428,280.35L300.559,280.14L302.318,281.723L302.946,281.652L..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "US",
+    "sample": "<path id=\"US\" d=\"M128.508,191.071L128.256,191.359L127.817,191.103L127.879,190.58..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "UZ",
+    "sample": "<path id=\"UZ\" d=\"M516.093,154.604L516.156,153.263L513.831,152.299L512.009,151.21..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "VE",
+    "sample": "<path id=\"VE\" d=\"M275.486,204.287L275.423,204.721L274.418,204.937L274.984,205.74..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "VN",
+    "sample": "<path id=\"VN\" d=\"M588.609,186.448L586.284,188.073L584.776,189.817L584.399,191.10..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "VU",
+    "sample": "<path id=\"VU\" d=\"M692.92,254.152L692.354,254.374L691.789,253.584L691.852,253.111..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "YE",
+    "sample": "<path id=\"YE\" d=\"M492.718,195.529L491.461,196.004L491.084,196.824L491.021,197.42..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "ZA",
+    "sample": "<path id=\"ZA\" d=\"M428.497,277.08L429.377,276.116L430.068,276.632L430.319,277.495..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "ZM",
+    "sample": "<path id=\"ZM\" d=\"M457.151,241.179L458.031,241.978L458.471,243.486L458.157,243.94..."
+  },
+  {
+    "tag": "path",
+    "locatorType": "id",
+    "locator": "ZW",
+    "sample": "<path id=\"ZW\" d=\"M454.449,264.856L453.507,264.66L452.941,264.889L452.061,264.562..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "id",
+    "locator": "legend",
+    "sample": "<div id=\"legend\"><ul><li><span class=\"color\" style=\"background-color: rgb(228, 2..."
+  },
+  {
+    "tag": "ul",
+    "locatorType": "text",
+    "locator": "0 Cases",
+    "sample": "<ul><li><span class=\"color\" style=\"background-color: rgb(228, 236, 239);\"></span..."
+  },
+  {
+    "tag": "li",
+    "locatorType": "text",
+    "locator": "0 Cases",
+    "sample": "<li><span class=\"color\" style=\"background-color: rgb(228, 236, 239);\"></span><sp..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"legend\"]/ul[1]/li[1]/span[1]",
+    "sample": "<span class=\"color\" style=\"background-color: rgb(228, 236, 239);\"></span>..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "text",
+    "locator": "0 Cases",
+    "sample": "<span>0 Cases</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[2]/div[2]",
+    "sample": "<div class=\"col-3\"><h6 class=\"layer w-100\" style=\"text-align: center;\">Monitor H..."
+  },
+  {
+    "tag": "h6",
+    "locatorType": "text",
+    "locator": "Monitor Hits by Type",
+    "sample": "<h6 class=\"layer w-100\" style=\"text-align: center;\">Monitor Hits by Type</h6>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[2]/div[2]/div[1]",
+    "sample": "<div class=\"layers bgc-white p-20 dashboard-component tile\"><div class=\"layer w-..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[2]/div[2]/div[1]/div[1]",
+    "sample": "<div class=\"layer w-100\"><div style=\"color: rgb(84, 158, 227);\" class=\"value\">25..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "text",
+    "locator": "2588",
+    "sample": "<div style=\"color: rgb(84, 158, 227);\" class=\"value\">2588</div>..."
+  },
+  {
+    "tag": "h6",
+    "locatorType": "text",
+    "locator": "GDC",
+    "sample": "<h6 class=\"lh-1\">GDC</h6>..."
+  },
+  {
+    "tag": "hr",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[2]/div[2]/div[1]/div[1]/hr[1]",
+    "sample": "<hr>..."
+  },
+  {
+    "tag": "a",
+    "locatorType": "text",
+    "locator": "View Undetermined GDC Hits",
+    "sample": "<a href=\"javascript:void(0)\">View Undetermined GDC Hits</a>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[2]/div[2]/div[2]",
+    "sample": "<div class=\"layers bgc-white p-20 dashboard-component tile\"><div class=\"layer w-..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[2]/div[2]/div[2]/div[1]",
+    "sample": "<div class=\"layer w-100\"><div style=\"color: rgb(84, 158, 227);\" class=\"value\">18..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "text",
+    "locator": "182",
+    "sample": "<div style=\"color: rgb(84, 158, 227);\" class=\"value\">182</div>..."
+  },
+  {
+    "tag": "h6",
+    "locatorType": "text",
+    "locator": "Media",
+    "sample": "<h6 class=\"lh-1\">Media</h6>..."
+  },
+  {
+    "tag": "hr",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[2]/div[2]/div[2]/div[1]/hr[1]",
+    "sample": "<hr>..."
+  },
+  {
+    "tag": "a",
+    "locatorType": "text",
+    "locator": "View Undetermined Media Hits",
+    "sample": "<a href=\"javascript:void(0)\">View Undetermined Media Hits</a>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[2]/div[2]/div[3]",
+    "sample": "<div class=\"layers bgc-white p-20 dashboard-component tile\"><div class=\"layer w-..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[2]/div[2]/div[3]/div[1]",
+    "sample": "<div class=\"layer w-100\"><div style=\"color: rgb(84, 158, 227);\" class=\"value\">0<..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[2]/div[2]/div[3]/div[1]/div[1]",
+    "sample": "<div style=\"color: rgb(84, 158, 227);\" class=\"value\">0</div>..."
+  },
+  {
+    "tag": "h6",
+    "locatorType": "text",
+    "locator": "Remediation",
+    "sample": "<h6 class=\"lh-1\">Remediation</h6>..."
+  },
+  {
+    "tag": "hr",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[2]/div[2]/div[3]/div[1]/hr[1]",
+    "sample": "<hr>..."
+  },
+  {
+    "tag": "a",
+    "locatorType": "text",
+    "locator": "View True Matches Needing Remediation",
+    "sample": "<a href=\"javascript:void(0)\">View True Matches Needing Remediation</a>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]",
+    "sample": "<div class=\"row\"><div class=\"col-12\"><div class=\"bgc-white bd bdrs-3 p-20 dashbo..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]",
+    "sample": "<div class=\"col-12\"><div class=\"bgc-white bd bdrs-3 p-20 dashboard-component\" wi..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]",
+    "sample": "<div class=\"bgc-white bd bdrs-3 p-20 dashboard-component\" width=\"450px\"><h6 clas..."
+  },
+  {
+    "tag": "h6",
+    "locatorType": "text",
+    "locator": "Cases Needing Attention",
+    "sample": "<h6 class=\"layer w-100\">Cases Needing Attention</h6>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]",
+    "sample": "<div class=\"ReactTable\" style=\"background-color: rgb(255, 255, 255);\"><div class..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]",
+    "sample": "<div class=\"rt-table\" role=\"grid\"><div class=\"rt-thead -header\" style=\"min-width..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]",
+    "sample": "<div class=\"rt-thead -header\" style=\"min-width: 400px;\"><div class=\"rt-tr\" role=..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+    "sample": "<div class=\"rt-tr\" role=\"row\"><div class=\"rt-th rt-resizable-header -cursor-poin..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+    "sample": "<div class=\"rt-th rt-resizable-header -cursor-pointer\" role=\"columnheader\" tabin..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+    "sample": "<div class=\"rt-resizable-header-content\">Case Number</div>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+    "sample": "<div class=\"rt-resizer\"></div>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+    "sample": "<div class=\"rt-th rt-resizable-header -cursor-pointer\" role=\"columnheader\" tabin..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+    "sample": "<div class=\"rt-resizable-header-content\">Case Name</div>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+    "sample": "<div class=\"rt-resizer\"></div>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+    "sample": "<div class=\"rt-th rt-resizable-header -cursor-pointer\" role=\"columnheader\" tabin..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]",
+    "sample": "<div class=\"rt-resizable-header-content\">Stage</div>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]",
+    "sample": "<div class=\"rt-resizer\"></div>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+    "sample": "<div class=\"rt-tbody\" style=\"min-width: 400px;\"><div class=\"rt-tr-group\" role=\"r..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+    "sample": "<div class=\"rt-tr-group\" role=\"rowgroup\"><div class=\"rt-tr -padRow -odd\" role=\"r..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]",
+    "sample": "<div class=\"rt-tr -padRow -odd\" role=\"row\"><div class=\"rt-td no-trsl\" role=\"grid..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 100 0 auto; width: 100px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]",
+    "sample": "<div class=\"rt-td\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px; max-wi..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+    "sample": "<div class=\"rt-tr-group\" role=\"rowgroup\"><div class=\"rt-tr -padRow -even\" role=\"..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]",
+    "sample": "<div class=\"rt-tr -padRow -even\" role=\"row\"><div class=\"rt-td no-trsl\" role=\"gri..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 100 0 auto; width: 100px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[3]",
+    "sample": "<div class=\"rt-td\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px; max-wi..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[3]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+    "sample": "<div class=\"rt-tr-group\" role=\"rowgroup\"><div class=\"rt-tr -padRow -odd\" role=\"r..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]",
+    "sample": "<div class=\"rt-tr -padRow -odd\" role=\"row\"><div class=\"rt-td no-trsl\" role=\"grid..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[2]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 100 0 auto; width: 100px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[2]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[3]",
+    "sample": "<div class=\"rt-td\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px; max-wi..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[3]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+    "sample": "<div class=\"rt-tr-group\" role=\"rowgroup\"><div class=\"rt-tr -padRow -even\" role=\"..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]/div[1]",
+    "sample": "<div class=\"rt-tr -padRow -even\" role=\"row\"><div class=\"rt-td no-trsl\" role=\"gri..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 100 0 auto; width: 100px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[2]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[3]",
+    "sample": "<div class=\"rt-td\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px; max-wi..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[3]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]",
+    "sample": "<div class=\"rt-tr-group\" role=\"rowgroup\"><div class=\"rt-tr -padRow -odd\" role=\"r..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]/div[1]",
+    "sample": "<div class=\"rt-tr -padRow -odd\" role=\"row\"><div class=\"rt-td no-trsl\" role=\"grid..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]/div[1]/div[2]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 100 0 auto; width: 100px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]/div[1]/div[2]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]/div[1]/div[3]",
+    "sample": "<div class=\"rt-td\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px; max-wi..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]/div[1]/div[3]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[6]",
+    "sample": "<div class=\"rt-tr-group\" role=\"rowgroup\"><div class=\"rt-tr -padRow -even\" role=\"..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[6]/div[1]",
+    "sample": "<div class=\"rt-tr -padRow -even\" role=\"row\"><div class=\"rt-td no-trsl\" role=\"gri..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[6]/div[1]/div[1]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[6]/div[1]/div[1]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[6]/div[1]/div[2]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 100 0 auto; width: 100px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[6]/div[1]/div[2]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[6]/div[1]/div[3]",
+    "sample": "<div class=\"rt-td\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px; max-wi..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[6]/div[1]/div[3]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[7]",
+    "sample": "<div class=\"rt-tr-group\" role=\"rowgroup\"><div class=\"rt-tr -padRow -odd\" role=\"r..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[7]/div[1]",
+    "sample": "<div class=\"rt-tr -padRow -odd\" role=\"row\"><div class=\"rt-td no-trsl\" role=\"grid..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[7]/div[1]/div[1]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[7]/div[1]/div[1]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[7]/div[1]/div[2]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 100 0 auto; width: 100px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[7]/div[1]/div[2]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[7]/div[1]/div[3]",
+    "sample": "<div class=\"rt-td\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px; max-wi..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[7]/div[1]/div[3]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[8]",
+    "sample": "<div class=\"rt-tr-group\" role=\"rowgroup\"><div class=\"rt-tr -padRow -even\" role=\"..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[8]/div[1]",
+    "sample": "<div class=\"rt-tr -padRow -even\" role=\"row\"><div class=\"rt-td no-trsl\" role=\"gri..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[8]/div[1]/div[1]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[8]/div[1]/div[1]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[8]/div[1]/div[2]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 100 0 auto; width: 100px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[8]/div[1]/div[2]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[8]/div[1]/div[3]",
+    "sample": "<div class=\"rt-td\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px; max-wi..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[8]/div[1]/div[3]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[9]",
+    "sample": "<div class=\"rt-tr-group\" role=\"rowgroup\"><div class=\"rt-tr -padRow -odd\" role=\"r..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[9]/div[1]",
+    "sample": "<div class=\"rt-tr -padRow -odd\" role=\"row\"><div class=\"rt-td no-trsl\" role=\"grid..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[9]/div[1]/div[1]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[9]/div[1]/div[1]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[9]/div[1]/div[2]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 100 0 auto; width: 100px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[9]/div[1]/div[2]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[9]/div[1]/div[3]",
+    "sample": "<div class=\"rt-td\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px; max-wi..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[9]/div[1]/div[3]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[10]",
+    "sample": "<div class=\"rt-tr-group\" role=\"rowgroup\"><div class=\"rt-tr -padRow -even\" role=\"..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[10]/div[1]",
+    "sample": "<div class=\"rt-tr -padRow -even\" role=\"row\"><div class=\"rt-td no-trsl\" role=\"gri..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[10]/div[1]/div[1]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[10]/div[1]/div[1]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[10]/div[1]/div[2]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 100 0 auto; width: 100px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[10]/div[1]/div[2]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[10]/div[1]/div[3]",
+    "sample": "<div class=\"rt-td\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px; max-wi..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[10]/div[1]/div[3]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[11]",
+    "sample": "<div class=\"rt-tr-group\" role=\"rowgroup\"><div class=\"rt-tr -padRow -odd\" role=\"r..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[11]/div[1]",
+    "sample": "<div class=\"rt-tr -padRow -odd\" role=\"row\"><div class=\"rt-td no-trsl\" role=\"grid..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[11]/div[1]/div[1]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[11]/div[1]/div[1]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[11]/div[1]/div[2]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 100 0 auto; width: 100px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[11]/div[1]/div[2]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[11]/div[1]/div[3]",
+    "sample": "<div class=\"rt-td\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px; max-wi..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[11]/div[1]/div[3]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[12]",
+    "sample": "<div class=\"rt-tr-group\" role=\"rowgroup\"><div class=\"rt-tr -padRow -even\" role=\"..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[12]/div[1]",
+    "sample": "<div class=\"rt-tr -padRow -even\" role=\"row\"><div class=\"rt-td no-trsl\" role=\"gri..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[12]/div[1]/div[1]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[12]/div[1]/div[1]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[12]/div[1]/div[2]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 100 0 auto; width: 100px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[12]/div[1]/div[2]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[12]/div[1]/div[3]",
+    "sample": "<div class=\"rt-td\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px; max-wi..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[12]/div[1]/div[3]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[13]",
+    "sample": "<div class=\"rt-tr-group\" role=\"rowgroup\"><div class=\"rt-tr -padRow -odd\" role=\"r..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[13]/div[1]",
+    "sample": "<div class=\"rt-tr -padRow -odd\" role=\"row\"><div class=\"rt-td no-trsl\" role=\"grid..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[13]/div[1]/div[1]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[13]/div[1]/div[1]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[13]/div[1]/div[2]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 100 0 auto; width: 100px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[13]/div[1]/div[2]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[13]/div[1]/div[3]",
+    "sample": "<div class=\"rt-td\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px; max-wi..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[13]/div[1]/div[3]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[14]",
+    "sample": "<div class=\"rt-tr-group\" role=\"rowgroup\"><div class=\"rt-tr -padRow -even\" role=\"..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[14]/div[1]",
+    "sample": "<div class=\"rt-tr -padRow -even\" role=\"row\"><div class=\"rt-td no-trsl\" role=\"gri..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[14]/div[1]/div[1]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[14]/div[1]/div[1]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[14]/div[1]/div[2]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 100 0 auto; width: 100px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[14]/div[1]/div[2]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[14]/div[1]/div[3]",
+    "sample": "<div class=\"rt-td\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px; max-wi..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[14]/div[1]/div[3]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[15]",
+    "sample": "<div class=\"rt-tr-group\" role=\"rowgroup\"><div class=\"rt-tr -padRow -odd\" role=\"r..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[15]/div[1]",
+    "sample": "<div class=\"rt-tr -padRow -odd\" role=\"row\"><div class=\"rt-td no-trsl\" role=\"grid..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[15]/div[1]/div[1]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[15]/div[1]/div[1]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[15]/div[1]/div[2]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 100 0 auto; width: 100px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[15]/div[1]/div[2]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[15]/div[1]/div[3]",
+    "sample": "<div class=\"rt-td\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px; max-wi..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[15]/div[1]/div[3]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[16]",
+    "sample": "<div class=\"rt-tr-group\" role=\"rowgroup\"><div class=\"rt-tr -padRow -even\" role=\"..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[16]/div[1]",
+    "sample": "<div class=\"rt-tr -padRow -even\" role=\"row\"><div class=\"rt-td no-trsl\" role=\"gri..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[16]/div[1]/div[1]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[16]/div[1]/div[1]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[16]/div[1]/div[2]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 100 0 auto; width: 100px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[16]/div[1]/div[2]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[16]/div[1]/div[3]",
+    "sample": "<div class=\"rt-td\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px; max-wi..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[16]/div[1]/div[3]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[17]",
+    "sample": "<div class=\"rt-tr-group\" role=\"rowgroup\"><div class=\"rt-tr -padRow -odd\" role=\"r..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[17]/div[1]",
+    "sample": "<div class=\"rt-tr -padRow -odd\" role=\"row\"><div class=\"rt-td no-trsl\" role=\"grid..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[17]/div[1]/div[1]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[17]/div[1]/div[1]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[17]/div[1]/div[2]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 100 0 auto; width: 100px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[17]/div[1]/div[2]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[17]/div[1]/div[3]",
+    "sample": "<div class=\"rt-td\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px; max-wi..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[17]/div[1]/div[3]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[18]",
+    "sample": "<div class=\"rt-tr-group\" role=\"rowgroup\"><div class=\"rt-tr -padRow -even\" role=\"..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[18]/div[1]",
+    "sample": "<div class=\"rt-tr -padRow -even\" role=\"row\"><div class=\"rt-td no-trsl\" role=\"gri..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[18]/div[1]/div[1]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[18]/div[1]/div[1]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[18]/div[1]/div[2]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 100 0 auto; width: 100px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[18]/div[1]/div[2]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[18]/div[1]/div[3]",
+    "sample": "<div class=\"rt-td\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px; max-wi..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[18]/div[1]/div[3]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[19]",
+    "sample": "<div class=\"rt-tr-group\" role=\"rowgroup\"><div class=\"rt-tr -padRow -odd\" role=\"r..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[19]/div[1]",
+    "sample": "<div class=\"rt-tr -padRow -odd\" role=\"row\"><div class=\"rt-td no-trsl\" role=\"grid..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[19]/div[1]/div[1]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[19]/div[1]/div[1]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[19]/div[1]/div[2]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 100 0 auto; width: 100px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[19]/div[1]/div[2]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[19]/div[1]/div[3]",
+    "sample": "<div class=\"rt-td\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px; max-wi..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[19]/div[1]/div[3]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[20]",
+    "sample": "<div class=\"rt-tr-group\" role=\"rowgroup\"><div class=\"rt-tr -padRow -even\" role=\"..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[20]/div[1]",
+    "sample": "<div class=\"rt-tr -padRow -even\" role=\"row\"><div class=\"rt-td no-trsl\" role=\"gri..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[20]/div[1]/div[1]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[20]/div[1]/div[1]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[20]/div[1]/div[2]",
+    "sample": "<div class=\"rt-td no-trsl\" role=\"gridcell\" style=\"flex: 100 0 auto; width: 100px..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[20]/div[1]/div[2]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[20]/div[1]/div[3]",
+    "sample": "<div class=\"rt-td\" role=\"gridcell\" style=\"flex: 150 0 auto; width: 150px; max-wi..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[20]/div[1]/div[3]/span[1]",
+    "sample": "<span>&nbsp;</span>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[2]",
+    "sample": "<div class=\"pagination-bottom\"><div class=\"-pagination\"><div class=\"-previous\"><..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]",
+    "sample": "<div class=\"-pagination\"><div class=\"-previous\"><button type=\"button\" disabled=\"..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "text",
+    "locator": "Previous",
+    "sample": "<div class=\"-previous\"><button type=\"button\" disabled=\"\" class=\"-btn\">Previous</..."
+  },
+  {
+    "tag": "button",
+    "locatorType": "text",
+    "locator": "Previous",
+    "sample": "<button type=\"button\" disabled=\"\" class=\"-btn\">Previous</button>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "text",
+    "locator": "Page of 1 5 rows 10 rows 20 rows 25 rows 50 rows 100 rows",
+    "sample": "<div class=\"-center\"><span class=\"-pageInfo\">Page <div class=\"-pageJump\"><input ..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "text",
+    "locator": "Page of 1",
+    "sample": "<span class=\"-pageInfo\">Page <div class=\"-pageJump\"><input aria-label=\"jump to p..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/span[1]/div[1]",
+    "sample": "<div class=\"-pageJump\"><input aria-label=\"jump to page\" type=\"number\" value=\"1\" ..."
+  },
+  {
+    "tag": "input",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/span[1]/div[1]/input[1]",
+    "sample": "<input aria-label=\"jump to page\" type=\"number\" value=\"1\" data-has-listeners=\"tru..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/span[1]/span[1]",
+    "sample": "<span class=\"-totalPages\">1</span>..."
+  },
+  {
+    "tag": "span",
+    "locatorType": "text",
+    "locator": "5 rows 10 rows 20 rows 25 rows 50 rows 100 rows",
+    "sample": "<span class=\"select-wrap -pageSizeOptions\"><select aria-label=\"rows per page\"><o..."
+  },
+  {
+    "tag": "select",
+    "locatorType": "text",
+    "locator": "5 rows 10 rows 20 rows 25 rows 50 rows 100 rows",
+    "sample": "<select aria-label=\"rows per page\"><option value=\"5\">5 rows</option><option valu..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "text",
+    "locator": "Next",
+    "sample": "<div class=\"-next\"><button type=\"button\" disabled=\"\" class=\"-btn\">Next</button><..."
+  },
+  {
+    "tag": "button",
+    "locatorType": "text",
+    "locator": "Next",
+    "sample": "<button type=\"button\" disabled=\"\" class=\"-btn\">Next</button>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "text",
+    "locator": "No rows found",
+    "sample": "<div class=\"rt-noData\">No rows found</div>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[4]",
+    "sample": "<div class=\"-loading\"><div class=\"-loading-inner\">Loading...</div></div>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[2]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[4]/div[1]",
+    "sample": "<div class=\"-loading-inner\">Loading...</div>..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[3]",
+    "sample": "<div><ai-notice-popup-component userid=\"2019068\" aivirtualassistantenabled=\"fals..."
+  },
+  {
+    "tag": "ai-notice-popup-component",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[3]/ai-notice-popup-component[1]",
+    "sample": "<ai-notice-popup-component userid=\"2019068\" aivirtualassistantenabled=\"false\" ai..."
+  },
+  {
+    "tag": "div",
+    "locatorType": "xpath",
+    "locator": "//*[@id=\"root\"]/div[4]",
+    "sample": "<div></div>..."
   }
-  
 ]

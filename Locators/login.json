@@ -1,84 +1,278 @@
 [
-{"id": "masterLoginCntnr"},
-{"id": "loginForm"},
-{"id": "steeleDiligentLogoContainer"},
-{"id": "masterLoginForm"},
-{"id": "errorMsg"},
-{"id": "totpRegistTxt"},
-{"id": "loginID"},
-{"id": "pw"},
-{"id": "twoFactorAuth"},
-{"id": "twoFactorAuthCode"},
-{"id": "twoFactorAuthSection"},
-{"id": "twoFactorAuthImg"},
-{"id": "twoFactorAuthenticator"},
-{"id": "twoFactAuthLabel"},
-{"id": "twoFactAuthLabelText"},
-{"id": "twoFactorAuthenticatorCode"},
-{"class": "valid-six-digits"},
-{"class": "valid-six-digits-panel"},
-{"class": "valid-six-digits-img"},
-{"class": "error-message-panel"},
-{"class": "error-message-text"},
-{"id": "btnSubmitSection"},
-{"id": "btnSubmit"},
-{"id": "twofactorRecovery"},
-{"class": "cant-access-device-panel"},
-{"class": "cant-access-device-text"},
-{"id": "recoveryCodeSection"},
-{"class": "qrcode-verified-section"},
-{"class": "qrcode-verified-panel"},
-{"class": "qrcode-verified-img-wrapper"},
-{"class": "qrcode-verified-img"},
-{"class": "qrcode-verified-text-wrapper"},
-{"class": "qrcode-verified-text"},
-{"class": "recovery-code-download-title"},
-{"class": "recovery-description"},
-{"class": "recovery-warning"},
-{"class": "recovery-code-download-section"},
-{"class": "recovery-code-download-panel"},
-{"class": "recovery-code-download-content"},
-{"class": "recovery-code-download-icon-wrapper"},
-{"class": "recovery-code-download-icon"},
-{"class": "recovery-code-download-text-wrapper"},
-{"class": "recovery-code-download-text"},
-{"id": "recoveryCodeDownload"},
-{"class": "recovery-code-download-button"},
-{"class": "download-button-icon-wrapper"},
-{"class": "download-button-icon"},
-{"class": "download-button-text-wrapper"},
-{"class": "download-button-text"},
-{"class": "recovery-code-confirmation"},
-{"class": "recovery-code-checkbox"},
-{"id": "recoveryDownloadConfirm"},
-{"class": "recovery-code-confirmation-text-wrapper"},
-{"class": "recovery-code-confirmation-text"},
-{"id": "recoveryDownloadBtn"},
-{"class": "recovery-code-continue-button"},
-{"class": "recovery-download-wrapper"},
-{"class": "recovery-download-text"},
-{"id": "lostDevicerecovery"},
-{"class": "lost-device-recovery-header"},
-{"class": "lost-device-recovery-icon-wrapper"},
-{"class": "lost-device-recovery-icon"},
-{"class": "lost-device-recovery-title-wrapper"},
-{"class": "lost-device-recovery-title"},
-{"class": "lost-device-recovery-body"},
-{"class": "recovery-code-input-wrapper"},
-{"class": "recovery-code-label"},
-{"class": "recovery-code-input"},
-{"class": "recovery-code-verify-button-wrapper"},
-{"class": "recovery-code-verify-button"},
-{"id": "havingTroubleLostDevice"},
-{"class": "trouble-verification-content"},
-{"class": "trouble-verification-icon-wrapper"},
-{"class": "trouble-verification-icon"},
-{"class": "trouble-verification-title"},
-{"class": "contact-support-wrapper"},
-{"class": "contact-support-content"},
-{"class": "contact-support-label"},
-{"class": "forgotLinks"},
-{"id": "criticalErrorMsg"},
-{"class": "supportLinks"}
-
-] 
+    {
+      "tag": "div",
+      "locatorType": "id",
+      "locator": "masterLoginCntnr",
+      "sample": "<div id=\"masterLoginCntnr\"> <div class=\"peers ai-s h-100vh\" style=\"backgroun..."
+    },
+    {
+      "tag": "div",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"masterLoginCntnr\"]/div[1]",
+      "sample": "<div class=\"peers ai-s h-100vh\" style=\"background-image: url('https://dev3.steel..."
+    },
+    {
+      "tag": "div",
+      "locatorType": "id",
+      "locator": "loginForm",
+      "sample": "<div id=\"loginForm\" class=\"col-12 col-md-4 peer pX-40 pY-80 bgc-white scrollable..."
+    },
+    {
+      "tag": "div",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"loginForm\"]/div[1]",
+      "sample": "<div class=\"bgc-white\" style=\"width: 300px; height: 90px; border-radius: 10px;\">..."
+    },
+    {
+      "tag": "div",
+      "locatorType": "id",
+      "locator": "companyLogoContainer",
+      "sample": "<div id=\"companyLogoContainer\"><!--?xml version=\"1.0\" encoding=\"utf-8\"?--..."
+    },
+    {
+      "tag": "svg",
+      "locatorType": "id",
+      "locator": "Layer_1",
+      "sample": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"..."
+    },
+    {
+      "tag": "style",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"Layer_1\"]/style[1]",
+      "sample": "<style type=\"text/css\">.st0{fill:#EE312E;}.st1{fill:#AF292E;}.st2{fill:#D3222A;}..."
+    },
+    {
+      "tag": "g",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"Layer_1\"]/g[1]",
+      "sample": "<g><rect x=\"362.89\" y=\"85.89\" width=\"18.73\" height=\"84.72\"></rect><rect x=\"362.8..."
+    },
+    {
+      "tag": "rect",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"Layer_1\"]/g[1]/rect[1]",
+      "sample": "<rect x=\"362.89\" y=\"85.89\" width=\"18.73\" height=\"84.72\"></rect>..."
+    },
+    {
+      "tag": "rect",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"Layer_1\"]/g[1]/rect[2]",
+      "sample": "<rect x=\"362.89\" y=\"54.16\" width=\"18.73\" height=\"21.1\"></rect>..."
+    },
+    {
+      "tag": "rect",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"Layer_1\"]/g[1]/rect[3]",
+      "sample": "<rect x=\"399.43\" y=\"52.29\" width=\"18.73\" height=\"118.33\"></rect>..."
+    },
+    {
+      "tag": "rect",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"Layer_1\"]/g[1]/rect[4]",
+      "sample": "<rect x=\"439.04\" y=\"85.89\" width=\"18.73\" height=\"84.72\"></rect>..."
+    },
+    {
+      "tag": "rect",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"Layer_1\"]/g[1]/rect[5]",
+      "sample": "<rect x=\"439.04\" y=\"54.16\" width=\"18.73\" height=\"21.1\"></rect>..."
+    },
+    {
+      "tag": "path",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"Layer_1\"]/g[1]/path[1]",
+      "sample": "<path d=\"M538.68,96.12c-2.68-3.34-5.83-6.02-9.44-8.04c-4.86-2.71-10.47-4.06-16.8..."
+    },
+    {
+      "tag": "path",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"Layer_1\"]/g[1]/path[2]",
+      "sample": "<path d=\"M638.71,96.21c-3.43-3.86-7.63-6.85-12.59-8.99c-4.97-2.13-10.62-3.21-16...."
+    },
+    {
+      "tag": "path",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"Layer_1\"]/g[1]/path[3]",
+      "sample": "<path d=\"M721.31,88.08c-4.76-2.71-10.21-4.06-16.35-4.06c-5.94,0-11.13,1.36-15.58..."
+    },
+    {
+      "tag": "path",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"Layer_1\"]/g[1]/path[4]",
+      "sample": "<path d=\"M797.16,154.52c-0.97,0.1-1.87,0.16-2.69,0.16c-3.17,0-5.81-0.52-7.91-1.5..."
+    },
+    {
+      "tag": "path",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"Layer_1\"]/g[1]/path[5]",
+      "sample": "<path d=\"M318.14,61.51c-8.85-4.9-19.27-7.34-31.24-7.34h-41.94v116.46h41.94c11.98..."
+    },
+    {
+      "tag": "g",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"Layer_1\"]/g[2]",
+      "sample": "<g><path class=\"st0\" d=\"M200.87,110.85c0,33.96-12.19,61.94-33.03,81.28c-0.24,0.2..."
+    },
+    {
+      "tag": "path",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"Layer_1\"]/g[2]/path[1]",
+      "sample": "<path class=\"st0\" d=\"M200.87,110.85c0,33.96-12.19,61.94-33.03,81.28c-0.24,0.21-0..."
+    },
+    {
+      "tag": "path",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"Layer_1\"]/g[2]/path[2]",
+      "sample": "<path class=\"st1\" d=\"M142.75,12.83l-0.99,1.47L0.74,119.34L0,118.65c0,0,0-0.03,0-..."
+    },
+    {
+      "tag": "g",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"Layer_1\"]/g[2]/g[1]",
+      "sample": "<g><path class=\"st2\" d=\"M142.75,12.83L0,118.65v99.27v3.62h85.96c7.61,0,14.94-0.5..."
+    },
+    {
+      "tag": "path",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"Layer_1\"]/g[2]/g[1]/path[1]",
+      "sample": "<path class=\"st2\" d=\"M142.75,12.83L0,118.65v99.27v3.62h85.96c7.61,0,14.94-0.58,2..."
+    },
+    {
+      "tag": "h4",
+      "locatorType": "text",
+      "locator": "Application Manager",
+      "sample": "<h4 class=\"login-header-text\">Application Manager</h4>..."
+    },
+    {
+      "tag": "form",
+      "locatorType": "id",
+      "locator": "masterLoginForm",
+      "sample": "<form style=\"margin-bottom: 40px;\" id=\"masterLoginForm\"> <div cl..."
+    },
+    {
+      "tag": "div",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"masterLoginForm\"]/div[1]",
+      "sample": "<div class=\"form-group\"> <div id=\"errorMsg\" class=\"disp-none..."
+    },
+    {
+      "tag": "div",
+      "locatorType": "id",
+      "locator": "login",
+      "sample": "<div id=\"login\"> <div class=\"form-gr..."
+    },
+    {
+      "tag": "div",
+      "locatorType": "text",
+      "locator": "User ID",
+      "sample": "<div class=\"form-group\"> <label class=\"text-normal t..."
+    },
+    {
+      "tag": "label",
+      "locatorType": "text",
+      "locator": "User ID",
+      "sample": "<label class=\"text-normal text-dark\">User ID</label>..."
+    },
+    {
+      "tag": "input",
+      "locatorType": "id",
+      "locator": "loginID",
+      "sample": "<input id=\"loginID\" name=\"email\" type=\"text\" class=\"form-control\" required=\"requ..."
+    },
+    {
+      "tag": "div",
+      "locatorType": "text",
+      "locator": "Password",
+      "sample": "<div class=\"form-group\"> <label class=\"text-normal t..."
+    },
+    {
+      "tag": "label",
+      "locatorType": "text",
+      "locator": "Password",
+      "sample": "<label class=\"text-normal text-dark\">Password</label>..."
+    },
+    {
+      "tag": "input",
+      "locatorType": "id",
+      "locator": "pw",
+      "sample": "<input id=\"pw\" name=\"password\" type=\"password\" class=\"form-control\" required=\"re..."
+    },
+    {
+      "tag": "div",
+      "locatorType": "id",
+      "locator": "btnSubmitSection",
+      "sample": "<div class=\"form-group\" id=\"btnSubmitSection\"> <div class=\"r..."
+    },
+    {
+      "tag": "div",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"btnSubmitSection\"]/div[1]",
+      "sample": "<div class=\"row\"> <div class=\"col-4\"> ..."
+    },
+    {
+      "tag": "div",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"btnSubmitSection\"]/div[1]/div[1]",
+      "sample": "<div class=\"col-4\"> <input id=\"btnSubmit\" type=\"subm..."
+    },
+    {
+      "tag": "input",
+      "locatorType": "id",
+      "locator": "btnSubmit",
+      "sample": "<input id=\"btnSubmit\" type=\"submit\" value=\"Login\" class=\"btn btn-primary\" data-h..."
+    },
+    {
+      "tag": "div",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"loginForm\"]/div[5]",
+      "sample": "<div> <div class=\"forgotLinks\"> <a href=\"/fo..."
+    },
+    {
+      "tag": "div",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"loginForm\"]/div[5]/div[1]",
+      "sample": "<div class=\"forgotLinks\"> <a href=\"/forgot/password\" title=\"..."
+    },
+    {
+      "tag": "a",
+      "locatorType": "text",
+      "locator": "Forgot your password?",
+      "sample": "<a href=\"/forgot/password\" title=\"Forgot your password?\">Forgot your password?</..."
+    },
+    {
+      "tag": "a",
+      "locatorType": "text",
+      "locator": "Forgot Your User ID?",
+      "sample": "<a href=\"/forgot/username\" style=\"margin-left: 20px;\" title=\"Forgot Your User ID..."
+    },
+    {
+      "tag": "div",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"loginForm\"]/div[5]/div[2]",
+      "sample": "<div id=\"criticalErrorMsg\"></div>..."
+    },
+    {
+      "tag": "div",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"loginForm\"]/div[6]",
+      "sample": "<div> <div class=\"supportLinks\"> <a href=\"ht..."
+    },
+    {
+      "tag": "div",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"loginForm\"]/div[6]/div[1]",
+      "sample": "<div class=\"supportLinks\"> <a href=\"https://www.example.com..."
+    },
+    {
+      "tag": "a",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"loginForm\"]/div[6]/div[1]/a[1]",
+      "sample": "<a href=\"https://www.example.com/support\" target=\"_blank\" title=\"Contact Suppor..."
+    },
+    {
+      "tag": "div",
+      "locatorType": "xpath",
+      "locator": "//*[@id=\"loginForm\"]/div[6]/div[2]",
+      "sample": "<div id=\"criticalErrorMsg\"></div>..."
+    }
+  ]

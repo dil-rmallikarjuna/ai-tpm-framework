@@ -1,5 +1,5 @@
 {
-  "name": "ai-tpm-runner",
+  "name": "ai-test-runner",
   "version": "1.0.0",
   "description": "AI-powered test runner using Playwright and Bedrock LLM",
   "main": "index.js",

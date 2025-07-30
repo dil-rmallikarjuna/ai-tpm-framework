@@ -1,7 +1,7 @@
-aws sso login --profile dil-3pm-dev
+aws sso login --profile your-profile-name
 
-AI-TPM: AI-Powered Unified Automation Framework
-===============================================
+AI-Test-Framework: AI-Powered Unified Automation Framework
+========================================================
 
 Overview
 --------
@@ -54,7 +54,7 @@ AWS SSO Configuration
    # CLI default output format: json
    # SSO session name: Get this details from your org
 3. Login to SSO:
-   aws sso login --profile dil-3pm-dev
+   aws sso login --profile your-profile-name
 
 
 Usage
