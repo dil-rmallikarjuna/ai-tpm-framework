@@ -1,6 +1,6 @@
 Test URL: https://dev3.steeleglobal.net
-Username: rmallikarjuna@diligent.com
-Password: Welcome@1234
+Username: 
+Password: 
 
 
 Login to "https://dev3.steeleglobal.net" using username "rmallikarjuna@diligent.com" and password Welcome@1234.
